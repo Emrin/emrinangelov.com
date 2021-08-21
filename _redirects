@@ -1,0 +1,10 @@
+# [NETLIFY] Redirect default Netlify subdomain to primary domain
+https://emrin.netlify.com/* https://emrinangelov.com/:splat 301!
+
+# [SUBDOMAIN] Redirect www.emrinangelov.com to emrinangelov.com
+https://www.emrinangelov.com/* https://emrinangelov.com/:splat 301!
+
+# [LEGACY] Redirect URLs (FROM, TO, 301!)
+/old /new 301!
+/old/* /new/:splat 301!
+
