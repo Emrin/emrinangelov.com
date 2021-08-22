@@ -35,7 +35,7 @@ Emrin Angelov
                   name: link.slug,
                   params: { book: 'get-started', slug: 'installation' }
                 })
-              "
+              " exact
             >
               {{ link.name }}
             </NuxtLink>
