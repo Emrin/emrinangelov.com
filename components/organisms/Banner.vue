@@ -73,7 +73,7 @@
           >
             Now
             <span :style="{ color: '#00dc82' }"> available </span>
-            for jobs and hire!
+            for jobs, contracts, and hire!
           </p>
           <div class="flex items-center">
             <button

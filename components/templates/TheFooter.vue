@@ -100,45 +100,53 @@ export default {
       links: {
         discover: [
           {
-            key: this.$t('footer.links.about.team'),
-            to: this.localePath('/team')
+            // key: this.$t('footer.links.about.team'),
+            key: 'Twitter',
+            href: 'https://twitter.com/cyberlypse'
           },
           {
-            key: this.$t('footer.links.about.design'),
-            to: this.localePath('/design')
+            // key: this.$t('footer.links.about.contact'),
+            key: 'Aclipt',
+            href: 'https://aclipt.com/autre/paris/aclipt'
           },
           {
-            key: this.$t('footer.links.about.contact'),
-            href: 'https://twitter.com/nuxt_js'
+            // key: this.$t('footer.links.about.design'),
+            key: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/emrin-angelov/'
           }
         ],
         about: [
           {
-            key: this.$t('footer.links.support.resources'),
-            to: this.localePath('/resources')
+            // key: this.$t('footer.links.support.resources'),
+            key: 'FAQ',
+            to: this.localePath('/faq')
           },
           {
-            key: this.$t('footer.links.support.discord'),
-            href: 'https://discord.nuxtjs.org'
+            // key: this.$t('footer.links.support.discord'),
+            key: 'Chat (soon)',
+            href: '#'
           },
           {
-            key: this.$t('footer.links.support.contributionGuide'),
-            href:
-              'https://github.com/nuxt/nuxtjs.org/blob/main/content/en/_archives/guide/contribution-guide.md'
+            // key: this.$t('footer.links.support.contributionGuide'),
+            key: 'Contact',
+            to: this.localePath('/contact')
           }
         ],
         support: [
           {
-            key: this.$t('footer.links.discover.shop'),
-            to: this.localePath('/shop')
+            key: this.$t('footer.links.discover.consulting'),
+            to: this.localePath('/support')
           },
           {
+            // key: this.$t('footer.links.discover.sponsorNuxt'),
             key: this.$t('footer.links.discover.sponsorNuxt'),
             to: this.localePath('/sponsor-nuxtjs')
           },
           {
-            key: this.$t('footer.links.discover.consulting'),
-            to: this.localePath('/support')
+            // key: this.$t('footer.links.discover.shop'),
+            key: 'Shop (soon)',
+            href: '#'
+            // to: this.localePath('shop')
           }
         ]
       }

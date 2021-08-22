@@ -2,126 +2,50 @@
   <div class="bg-light-elevatedSurface dark:bg-dark-elevatedSurface shadow-nuxt relative">
     <div class="container mx-auto px-4 py-24">
       <section>
-        <i18n
-          path="homepage.companies.title"
-          tag="h2"
-          class="text-3xl font-medium text-center pb-8"
-        >
+        <i18n path="homepage.companies.title" tag="h2" class="text-3xl font-medium text-center pb-8">
           {{ $t('homepage.companies.title') }}
           <template #expertise>
             <span class="text-nuxt-lightgreen">Expertise</span>
           </template>
         </i18n>
         <div class="flex flex-col lg:flex-row items-center justify-between">
-          <div
-            v-for="(company, i) in langCompanies.slice(0, 5)"
-            :key="i"
-            class="p-4 lg:p-8 text-center"
-          >
-            <a
-              :href="company.url"
-              target="_blank"
-              rel="noopener nofollow"
-              class="company relative block"
-            >
+          <div v-for="(company, i) in langCompanies.slice(0, 5)" :key="i" class="p-4 lg:p-8 text-center">
+            <a :href="company.url" target="_blank" rel="noopener nofollow" class="company relative block">
               <ClientOnly>
-                <img
-                  :src="'/img/companies/original/' + company.img"
-                  :alt="company.name"
-                  :class="[
-                    company.class,
-                    $colorMode.value === 'dark'
-                      ? 'absolute top-0 left-0 opacity-0'
-                      : ''
-                  ]"
-                  class="original"
-                  loading="lazy"
-                />
-                <img
-                  v-if="$colorMode.value === 'dark'"
-                  :src="'/img/companies/preview/' + company.img"
-                  :alt="company.name"
-                  :class="company.class"
-                  class="preview"
-                  loading="lazy"
-                />
+                <img :src="'/img/companies/original/' + company.img" :alt="company.name"
+                  :class="[company.class,$colorMode.value === 'dark' ? 'absolute top-0 left-0 opacity-0': '']"
+                  class="original" loading="lazy" />
+                <img v-if="$colorMode.value === 'dark'"
+                  :src="'/img/companies/preview/' + company.img" :alt="company.name"
+                  :class="company.class" class="preview" loading="lazy" />
               </ClientOnly>
             </a>
           </div>
         </div>
         <div class="flex flex-col lg:flex-row items-center justify-between">
-          <div
-            v-for="(company, i) in langCompanies.slice(5, 10)"
-            :key="i"
-            class="p-4 lg:p-8 text-center"
-          >
-            <a
-              :href="company.url"
-              target="_blank"
-              rel="noopener nofollow"
-              class="company relative block"
-            >
+          <div v-for="(company, i) in langCompanies.slice(5, 10)" :key="i" class="p-4 lg:p-8 text-center">
+            <a :href="company.url" target="_blank" rel="noopener nofollow" class="company relative block">
               <ClientOnly>
-                <img
-                  :src="'/img/companies/original/' + company.img"
-                  :alt="company.name"
-                  :class="[
-                    company.class,
-                    $colorMode.value === 'dark'
-                      ? 'absolute top-0 left-0 opacity-0'
-                      : ''
-                  ]"
-                  class="original"
-                  loading="lazy"
-                />
-                <img
-                  v-if="$colorMode.value === 'dark'"
-                  :src="'/img/companies/preview/' + company.img"
-                  :alt="company.name"
-                  :class="company.class"
-                  class="preview"
-                  loading="lazy"
-                />
+                <img :src="'/img/companies/original/' + company.img" :alt="company.name"
+                  :class="[company.class, $colorMode.value === 'dark' ? 'absolute top-0 left-0 opacity-0' : '']"
+                  class="original" loading="lazy" />
+                <img v-if="$colorMode.value === 'dark'"
+                     :src="'/img/companies/preview/' + company.img" :alt="company.name"
+                     :class="company.class" class="preview" loading="lazy" />
               </ClientOnly>
             </a>
           </div>
         </div>
-        <div
-          v-if="langCompanies.length > 10"
-          class="hidden lg:flex flex-col lg:flex-row items-center justify-between"
-        >
-          <div
-            v-for="(company, i) in langCompanies.slice(10, 15)"
-            :key="i"
-            class="p-8 text-center"
-          >
-            <a
-              :href="company.url"
-              target="_blank"
-              rel="noopener nofollow"
-              class="company relative block"
-            >
+        <div v-if="langCompanies.length > 10" class="hidden lg:flex flex-col lg:flex-row items-center justify-between">
+          <div v-for="(company, i) in langCompanies.slice(10, 15)" :key="i" class="p-8 text-center">
+            <a :href="company.url" target="_blank" rel="noopener nofollow" class="company relative block">
               <ClientOnly>
-                <img
-                  :src="'/img/companies/original/' + company.img"
-                  :alt="company.name"
-                  :class="[
-                    company.class,
-                    $colorMode.value === 'dark'
-                      ? 'absolute top-0 left-0 opacity-0'
-                      : ''
-                  ]"
-                  class="original"
-                  loading="lazy"
-                />
-                <img
-                  v-if="$colorMode.value === 'dark'"
-                  :src="'/img/companies/preview/' + company.img"
-                  :alt="company.name"
-                  :class="company.class"
-                  class="preview"
-                  loading="lazy"
-                />
+                <img :src="'/img/companies/original/' + company.img" :alt="company.name"
+                  :class="[company.class, $colorMode.value === 'dark' ? 'absolute top-0 left-0 opacity-0' : '']"
+                  class="original" loading="lazy" />
+                <img v-if="$colorMode.value === 'dark'"
+                  :src="'/img/companies/preview/' + company.img" :alt="company.name"
+                  :class="company.class" class="preview" loading="lazy" />
               </ClientOnly>
             </a>
           </div>

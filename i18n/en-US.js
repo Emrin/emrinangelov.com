@@ -54,13 +54,18 @@ module.exports = {
         // 'Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful.'
     },
     welcome: {
-      title: 'An {type}{br} Like No Other',
+      // title: 'An {engineer}{br} Like No Other',
+      // title: 'Creating, Optimizing,{br} and Leading You to Your Dreams',
+      title: '{part1} and {br}Perfecting {part3}',
+      title_part1: 'Engineering',
+      title_part2: 'Perfecting',
+      title_part3: 'Your Vision',
       description:
         'Looking for the right guy to build your thing? Well you\'ve arrived at the right place. There is no limit to what we can accomplish together.',
       get_started: 'Let\'s get started',
       previous_work: 'Check my works',
       get_updates: 'Get updates and memes to your inbox each month',
-      video: 'Video produced by me, featuring myself, in person.',
+      video: 'Video featuring me, produced by myself.',
     },
     why: {
       title: 'Why Work {together}',
@@ -74,16 +79,21 @@ module.exports = {
       performant: {
         title: 'Support',
         description:
-          'You will get unmatched 24/7 support. I acknowledge how valuable proper support is. You will be getting not only technical and marketing support, but also leadership support. {break}Fast-forward yourself in the right direction, so you can always look up and out, and let me or my contacts look down and in.'
+          'Receive unmatched 24/7 support.{break}Proper support is extremely valuable. You will be getting not only technical and marketing support, but also leadership support. {break}Fast-forward yourself in the right direction, so you can always look up and out, and let me or my contacts look down and in.'
       },
       enjoyable: {
         title: 'Privacy',
         description:
-          'It\'s just you and me. To anybody else, it\'s us. It goes without saying that I will not disclose any information that isn\'t intended to be public. If your project is dark web related (or on demand), then I will also obfuscate all your details for zero traceability. Also, I can keep secrets.'
+          'It\'s just you and me. To anybody else, it\'s us. It goes without saying that I will not disclose any information that isn\'t intended to be public. If your project is dark-web related (or on demand), then I will also obfuscate all your details for zero traceability.'
       }
     },
     companies: {
-      title: "An inclusive list of {expertise}"
+      title: "An inclusive list of {expertise}",
+      dev: 'DEVELOPMENT: Cloud-Native, Full-Stack Web and Mobile Development',
+      ops: 'OPERATIONS: Continuous Integration and Development, Cybersecurity, Automatisation',
+      lead: 'LEADERSHIP CONSULTING: Assessments, Training, Strategic Advising',
+      contact: 'Interested in being part of the currently forming consulting company? {contact} for details.',
+      c: 'Contact me',
     },
     modes: {
       title: 'What I {offer}',
@@ -91,25 +101,26 @@ module.exports = {
       ssr: {
         title: 'Craftsmanship',
         description:
-          'Building. Upgrading. Automating. Improving. Craftsmanship means pouring the full suite of my skills and experiences into your ideas. I will also introduce you to specialists in particular areas such as finance, top tier marketing, or even entire other areas such as mechanical engineering, if need be.'
+          'Building. Automating. Improving. Craftsmanship means pouring the full suite of my skills and experiences into your vision. Together we will shape your ideas into our reality. I will also introduce you to specialists in particular areas such as finance, top tier marketing, or even other industries such as mechanical engineering, if need be. Where my limits end, my contacts\' start: you need not worry about any shortfalls, as I will make sure every aspect is dealt with. The importance is and always will be the creation and the perfection of your technology, and we will see it done.'
       },
       ssg: {
         title: 'Solidification',
         description:
-          'Training and Consulting. Once you have an organism running, it\'s primordial that you solidify its stability, mainstream its maintenance and integration processes, and give your leadership with the mindset to win.{br}For this, I will first observe and analyze your systems in great detail. Then I will establish reports on improvements and changes, and then also do a performance grading. Then I will inject into your systems a tech focused version of Jocko\'s Leadership courses, along with a list of changes that will lead to minor-to-great improvements inside your organization.',
+          'Training and Consulting. Once you have an organism running, it\'s primordial that you solidify its stability, mainstream its maintenance and integration processes, and give your leadership with the mindset to win.{br}For this, first I will observe and analyze your systems in great detail. Then I will establish reports on improvements and changes, and then do a performance grading. Then I will inject into your systems a tech focused version of Jocko\'s Leadership courses, along with a list of changes that will lead to minor-to-great improvements inside your organization.',
         proverbial: 'only proverbial'
       }
     },
     sponsors: {
-      title: 'Sponsors',
+      title: 'About me',
       description:
-        'NuxtJS is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. If you run a business and are using Nuxt in a revenue-generating product, it makes business sense to sponsor Nuxt development: it ensures the project that your product relies on stays healthy and actively maintained. It can also help your exposure in the Vue/Nuxt community and makes it easier to attract Vue/Nuxt developers. If you are an individual user and have enjoyed the productivity of using Nuxt, consider donating as a sign of appreciation.',
-      become_a_sponsor: 'Become a sponsor'
+        'I am a warrior, a builder, and a philosopher. I have a Master\'s Degree in Engineering, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m constantly on the hunt for learning new hobbies, tools, and languages, with a particular interest for novelty technologies. {break}I specialize in creation, optimization, and leadership. I greatly enjoy working on high-impact projects with many moving parts. Ground-up as much as fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.',
+      become_a_sponsor: 'Contact'
     },
     newsletter: {
-      title: '{nuxt} Newsletter',
+      title: 'The {fun} Newsletter',
+      title2: 'Fun',
       description:
-        'Get the latest Nuxt news to your inbox, curated by the NuxtJS team.',
+        'How often do you receive poems, memes, and cool guides in your inbox? Time to up those rookie numbers.',
       form: {
         email: 'Email',
         subscribing: 'Subscribing...',

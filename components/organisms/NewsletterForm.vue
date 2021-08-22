@@ -10,8 +10,8 @@
         tag="h2"
         class="mb-2 text-3xl font-medium transition-colors duration-300 ease-linear text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary"
       >
-        <template #nuxt>
-          <AppTitle />
+        <template #fun>
+          <span class="text-nuxt-lightgreen">{{ $t('homepage.newsletter.title2') }}</span>
         </template>
       </i18n>
       <p

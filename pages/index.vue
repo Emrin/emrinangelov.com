@@ -2,7 +2,7 @@
   <div>
     <HomeWelcome />
     <HomeWhy />
-    <HomeCompanies />
+    <HomeExpertise />
     <HomeModes />
     <HomeSponsors />
   </div>

@@ -4,7 +4,7 @@
   >
     <div class="container mx-auto px-4">
       <div class="flex justify-between py-16 sm:py-24">
-        <div class="w-full text-center py-4 sm:p-0">
+        <div class="w-full lg:w-1/2 xl:w-6/12 text-center lg:text-left py-4 sm:p-0">
           <!--welcome title i18n -->
           <i18n
             path="homepage.welcome.title"
@@ -63,6 +63,15 @@
             </a>
           </div>
         </div>
+        <figure class="hidden lg:block lg:w-5/12" data-cy="video">
+          <AppMedia :src="videoUrl" class="mb-4" />
+          <!--welcome video i18n -->
+          <i18n
+            path="homepage.welcome.video"
+            tag="p"
+            class="font-medium py-2 text-xs xl:text-sm text-center text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
+          />
+        </figure>
       </div>
     </div>
   </div>
@@ -76,6 +85,19 @@ export default {
   components: {
     MeteorIcon,
     GithubIcon
+  },
+  computed: {
+    /**
+     * This was done because the vimeo.com site has been blocked in Indonesia.
+     * So, the video url is redirected to the youtube.com service.
+     *
+     * https://github.com/nuxt/nuxtjs.org/pull/661
+     */
+    videoUrl() {
+      return this.$i18n.locale === 'id'
+        ? 'https://www.youtube.com/embed/7ITypVi-qRY'
+        : 'https://player.vimeo.com/video/311756540'
+    }
   }
 }
 </script>
