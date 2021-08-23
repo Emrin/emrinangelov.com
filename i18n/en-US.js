@@ -132,6 +132,25 @@ module.exports = {
       }
     }
   },
+  contact: {
+    title: '{contact} Details',
+    title2: 'Contact',
+    message: 'Send a {message}',
+    anon: 'You can also use this form to quickly send an anonymous mail.',
+    a2: 'message',
+    description:
+      'How often do you receive poems, memes, and cool guides in your inbox? Time to up those rookie numbers.',
+    form: {
+      email: 'Email (optional)',
+      message: 'Message',
+      sending: 'Sending...',
+      send: 'Send',
+      sent: 'Message sent !'
+    }
+  },
+  cv: {
+    download: 'Download CV (English)',
+  },
   design: {
     meta: {
       title: 'NuxtJS Design',

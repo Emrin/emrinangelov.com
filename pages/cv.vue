@@ -12,7 +12,7 @@
               data-cy="download-cv"
             >
               <GithubIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
-              Download CV (English)
+              {{ $t('cv.download') }}
             </AppButton>
           </div>
         </div>
@@ -38,7 +38,7 @@
               data-cy="download-cv"
             >
               <GithubIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
-              Download CV (English)
+              {{ $t('cv.download') }}
             </AppButton>
           </div>
         </div>

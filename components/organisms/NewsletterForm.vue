@@ -80,6 +80,12 @@ export default {
       }
       this.error = null
       this.pending = true
+      if (this.pending) { // delete this after server
+        this.subscribedEmail = this.email
+        this.subscribed = true
+        this.pending = false
+        return
+      }
       try {
         await new Promise(resolve => setTimeout(resolve, 400))
         await this.$http.$post(`${process.env.NUXT_API}/newsletter`, {
