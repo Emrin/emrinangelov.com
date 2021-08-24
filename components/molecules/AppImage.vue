@@ -9,22 +9,11 @@
     class="relative overflow-hidden light:bg-light-surface dark:bg-dark-surface"
   >
     <div />
-    <template v-if="isTest || isDev">
-      <img
-        v-if="show"
-        ref="img"
-        :src="`${host}/${src}`"
-        :alt="alt"
-        class="
-          object-cover
-          w-full
-          h-full
-          transition-opacity
-          duration-500
-          opacity-0
-        "
-        :class="[ratio && 'absolute top-0 left-0']"
-      />
+<!--    <template v-if="isTest || isDev">-->
+    <template v-if="true">
+      <img v-if="show" ref="img" :src="`${host}/${src}`" :alt="alt"
+        class="object-cover w-full h-full transition-opacity duration-500 opacity-0"
+        :class="[ratio && 'absolute top-0 left-0']" />
     </template>
     <template v-else>
       <noscript inline-template>
@@ -69,14 +58,7 @@
         `"
         :sizes="sizes"
         :alt="alt"
-        class="
-          object-cover
-          w-full
-          h-full
-          transition-opacity
-          duration-500
-          opacity-0
-        "
+        class="object-cover w-full h-full transition-opacity duration-500 opacity-0"
         :class="[ratio && 'absolute top-0 left-0']"
       />
     </template>

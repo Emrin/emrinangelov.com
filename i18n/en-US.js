@@ -241,9 +241,9 @@ module.exports = {
       description:
         'You can support NuxtJS development via different methods and ensure regular updates to the framework.'
     },
-    title: 'Sponsor {nuxt} Development',
+    title: 'Sponsor & Donate',
     description:
-      'NuxtJS is an MIT licensed open source project and completely free to use.{break} However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing.{break} You can support NuxtJS development via the following methods:',
+      'BTC: 3LYu69HdChTW4xEScBdVUbf2HrknLFA1FX{break}Ethereum: 0x84cb10f7a997eefc7a16eb6c2f84f81b5243b33c{break}Monero: 834wWuKWuBjjHu2roitmEeGLDWUqEKk9HDezaxs9ykXsSxjgbZpUR5M1MF6D7y2b3hC57BHeBouS9i6JKBwTfPy467EFWYS{break}Nano: nano_3fc87qsxgratp9f8151i7hx1o6agomadcm7dgktcnqcx9p3yxaskj5h7n78o{break}Doge: DEQavxTeQpqgpt59GxfZMEfHbmQKmktFnB',
     donations: {
       title: 'One-time donations',
       description: 'We accept donations through these channels'
@@ -288,13 +288,13 @@ module.exports = {
   },
   blog: {
     meta: {
-      title: 'NuxtJS Blog',
+      title: 'Blog',
       description:
-        'Discover articles from the NuxtJS team and NuxtJS Community about NuxtJS, tips and tricks included!'
+        'Discover articles written by Emrin Angelov about all sorts of interesting topics.'
     },
-    title: '{nuxt} Blog',
+    title: 'Blog',
     description:
-      'Discover articles from the {nuxtTeam} and {nuxtCommunity} about NuxtJS, tips and tricks included!',
+      'Discover cool articles about all sorts of interesting things!',
     nuxt_team: 'NuxtJS Team',
     nuxt_community: 'Nuxt.js Community',
     contribute: 'Caught a mistake or want to contribute to this blog post?'

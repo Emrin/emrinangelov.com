@@ -8,10 +8,10 @@
             tag="h1"
             class="text-3xl xl:text-4xl text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary font-medium leading-normal mb-6 lg:pt-4"
           >
-            {{ $t('blog.title') }}
-            <template #nuxt>
-              <AppTitle />
-            </template>
+<!--            {{ $t('blog.title') }}-->
+<!--            <template #nuxt>-->
+<!--              <AppTitle />-->
+<!--            </template>-->
           </i18n>
 
           <!--blog description i18n -->
@@ -89,33 +89,13 @@ export default {
     return {
       title,
       meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: description
-        },
+        { hid: 'description', name: 'description', content: description },
         // Open Graph
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: title
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: description
-        },
+        { hid: 'og:title', property: 'og:title', content: title },
+        { hid: 'og:description', property: 'og:description', content: description },
         // // Twitter Card
-        {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: title
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: description
-        }
+        { hid: 'twitter:title', name: 'twitter:title', content: title },
+        { hid: 'twitter:description', name: 'twitter:description', content: description }
       ]
     }
   }

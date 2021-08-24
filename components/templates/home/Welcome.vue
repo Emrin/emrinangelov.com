@@ -49,17 +49,13 @@
               {{ $t('homepage.welcome.previous_work') }}
             </AppButton>
           </div>
-          <div
-            class="flex flex-col sm:block text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
-            data-cy="newsletter-link"
-          >
-            <a
-              href="#subscribe-to-newsletter"
-              class="hover:text-light-onSurfacePrimary dark:hover:text-dark-onSurfacePrimary"
-            >
-              {{ $t('homepage.welcome.get_updates') }} 💌
-            </a>
-          </div>
+<!--          <div class="flex flex-col sm:block text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"-->
+<!--            data-cy="newsletter-link">-->
+<!--            <a href="#subscribe-to-newsletter"-->
+<!--              class="hover:text-light-onSurfacePrimary dark:hover:text-dark-onSurfacePrimary">-->
+<!--              {{ $t('homepage.welcome.get_updates') }} 💌-->
+<!--            </a>-->
+<!--          </div>-->
         </div>
       </div>
     </div>

@@ -140,7 +140,7 @@ export default {
           {
             // key: this.$t('footer.links.discover.sponsorNuxt'),
             key: this.$t('footer.links.discover.sponsorNuxt'),
-            to: this.localePath('/sponsor-nuxtjs')
+            to: this.localePath('/donate')
           },
           // {
           //   // key: this.$t('footer.links.discover.shop'),

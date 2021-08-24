@@ -76,6 +76,7 @@
     </div>
     <div class="w-full lg:w-1/3 mb-6 lg:mb-0 rounded overflow-hidden">
       <AppImage :src="post.imgUrl" ratio="16:9" />
+<!--      <img :src="`../${post.imgUrl}`" ratio="16:9" :alt='post.title' />-->
     </div>
   </NuxtLink>
 </template>

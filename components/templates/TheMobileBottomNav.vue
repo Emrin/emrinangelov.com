@@ -18,6 +18,7 @@
               params: { book: 'get-started', slug: 'installation' }
             })
           "
+          exact
         >
           <component
             :is="link.icon + '-icon'"
