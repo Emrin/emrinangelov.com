@@ -17,11 +17,11 @@
           <div class="lg:w-1/3 px-4 py-8 lg:p-8 flex flex-col items-center">
             <ModularIllustration class="inline-block" />
             <h4 class="uppercase font-medium text-2xl py-8">
-              {{ $t('homepage.why.modular.title') }}
+              {{ $t('homepage.why.competence.title') }}
             </h4>
             <!-- why modular description i18n -->
             <i18n
-              path="homepage.why.modular.description"
+              path="homepage.why.competence.description"
               tag="p"
               class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
@@ -33,12 +33,12 @@
           <div class="lg:w-1/3 px-4 py-8 lg:p-8 flex flex-col items-center">
             <PerformantIllustration class="inline-block" />
             <h4 class="uppercase font-medium text-2xl py-8">
-              {{ $t('homepage.why.performant.title') }}
+              {{ $t('homepage.why.support.title') }}
             </h4>
 
             <!-- why modular description i18n -->
             <i18n
-              path="homepage.why.performant.description"
+              path="homepage.why.support.description"
               tag="p"
               class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
@@ -50,18 +50,24 @@
           <div class="lg:w-1/3 px-4 py-8 lg:p-8 flex flex-col items-center">
             <EnjoyableIllustration class="inline-block" />
             <h4 class="uppercase font-medium text-2xl py-8">
-              {{ $t('homepage.why.enjoyable.title') }}
+              {{ $t('homepage.why.privacy.title') }}
             </h4>
 
             <!-- why enjoyable description i18n -->
             <i18n
-              path="homepage.why.enjoyable.description"
+              path="homepage.why.privacy.description"
               tag="p"
               class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
               <template #break>
                 💚
                 <br />
+              </template>
+              <template #contact>
+                <NuxtLink to='contact'>{{ $t('homepage.why.privacy.contact') }}</NuxtLink>
+              </template>
+              <template #link>
+                <NuxtLink to='donate'>{{ $t('homepage.why.privacy.link') }}</NuxtLink>
               </template>
             </i18n>
           </div>

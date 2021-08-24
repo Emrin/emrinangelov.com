@@ -71,20 +71,22 @@ module.exports = {
       title: 'Why Work {together}',
       together: 'Together',
       try_nuxtjs_online: 'Get a Quote',
-      modular: {
+      competence: {
         title: 'Competence',
         description:
-          "Through thorough work across the full spectrum of tools and technologies, I have acquired unrivaled competence in software craftsmanship. I also have a large repertoire of valuable contacts and relationships that specialize in particular areas. Whether your primary language is English, French, Bulgarian or Turkish, I will do my best to make you feel at ease. I am the expert that you can rely on."
+        'Through thorough work across a wide spectrum of tools and technologies, I have acquired great competence in software craftsmanship. There are, however, areas that require years of experience or a completely different skill set; in those cases I will explain to you exactly what needs to be done and introduce you to valuable contacts with the right expertise. I am the expert that you can rely on.'
       },
-      performant: {
+      support: {
         title: 'Support',
         description:
-          'Receive unmatched 24/7 support.{break}Proper support is extremely valuable. You will be getting not only technical and marketing support, but also leadership support. {break}Fast-forward yourself in the right direction, so you can always look up and out, and let me or my contacts look down and in.'
+        'Receive unmatched support. I will adapt to your systems and needs. Proper support is an extremely valuable service. You will be getting not only technical and marketing support, but also leadership support. I always go out of my way to do the best possible work for my clients. Fast-forward yourself in the right direction, let me and my contacts look down and in to the details, so that you can look up and out to your next step.'
       },
-      enjoyable: {
+      privacy: {
         title: 'Privacy',
         description:
-          'It\'s just you and me. To anybody else, it\'s us. It goes without saying that I will not disclose any information that isn\'t intended to be public. If your project is dark-web related (or on demand), then I will also obfuscate all your details for zero traceability.'
+        'Privacy is of primordial importance, especially in this era. It goes without saying that I will not disclose any information that isn\'t intended to be public. In my {contact}, I’ve put a list of ways you can contact me, and if you need absolute privacy (or onions) I recommend contacting me via Protonmail. {link}',
+        contact: 'contacts page',
+        link: 'I also accept crypto payments.',
       }
     },
     companies: {
@@ -98,22 +100,21 @@ module.exports = {
     modes: {
       title: 'What I {offer}',
       offer: 'Offer',
-      ssr: {
+      craftsmanship: {
         title: 'Craftsmanship',
         description:
-          'Building. Automating. Improving. Craftsmanship means pouring the full suite of my skills and experiences into your vision. Together we will shape your ideas into our reality. I will also introduce you to specialists in particular areas such as finance, top tier marketing, or even other industries such as mechanical engineering, if need be. Where my limits end, my contacts\' start: you need not worry about any shortfalls, as I will make sure every aspect is dealt with. The importance is and always will be the creation and the perfection of your technology, and we will see it done.'
+        'Building. Automating. Improving. Craftsmanship means utilizing my full skillset to accomplish something beautiful, performant, and effective. Together we can shape ideas into reality, and deeply impact environments. The importance is and always will be the creation, the growth, and the perfection of technologies, and we will see it done.'
       },
-      ssg: {
+      solidification: {
         title: 'Solidification',
         description:
-          'Training and Consulting. Once you have an organism running, it\'s primordial that you solidify its stability, mainstream its maintenance and integration processes, and give your leadership with the mindset to win.{br}For this, first I will observe and analyze your systems in great detail. Then I will establish reports on improvements and changes, and then do a performance grading. Then I will inject into your systems a tech focused version of Jocko\'s Leadership courses, along with a list of changes that will lead to minor-to-great improvements inside your organization.',
-        proverbial: 'only proverbial'
+        'Automating. Consulting. Perfecting. Once you have an organism running, it\'s primordial that you solidify its stability, mainstream its maintenance and integration processes, and give your leadership the mindset to win. When you are too deep in your project, it is often easier to miss details that cause internal friction and slow down your processes, this is why technical and leadership consulting can be so beneficial: it can fix and correct the internal gears of your organization in such a way that will propel you towards your goals.',
       }
     },
     sponsors: {
       title: 'About me',
       description:
-        'I am a warrior, a builder, and a philosopher. I have a Master\'s Degree in Engineering, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m constantly on the hunt for learning new hobbies, tools, and languages, with a particular interest for novelty technologies. {break}I specialize in creation, optimization, and leadership. I greatly enjoy working on high-impact projects with many moving parts. Ground-up as much as fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.',
+      'I am a warrior, a builder, and a philosopher. I have a Master\'s Degree in Engineering, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m constantly on the hunt for learning and novelty. I specialize in creation, optimization, and leadership. I enjoy working on high-impact projects with many moving parts. Ground-up or fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.\n',
       become_a_sponsor: 'Contact'
     },
     newsletter: {

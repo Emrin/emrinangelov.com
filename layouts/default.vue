@@ -3,31 +3,17 @@
      <Banner />
     <TheHeader />
     <main
-      class="
-        lg:block
-        relative
-        bg-light-elevatedSurface
-        dark:bg-dark-elevatedSurface
-        transition-colors
-        duration-300
-        ease-linear
-      "
+      class="lg:block relative
+        bg-light-elevatedSurface dark:bg-dark-elevatedSurface
+        transition-colors duration-300 ease-linear"
     >
       <Nuxt />
     </main>
     <TheFooter />
     <TheMobileBottomNav />
     <TheCookieBox
-      class="
-        w-full
-        fixed
-        bottom-0
-        left-0
-        mt-8
-        z-40
-        translucent
-        bg-light-elevatedSurfaceHalf dark:bg-dark-elevatedSurfaceHalf
-      "
+      class="w-full fixed bottom-0 left-0 mt-8 z-40 translucent
+        bg-light-elevatedSurfaceHalf dark:bg-dark-elevatedSurfaceHalf"
       @acknowledge-banner="showCookieBanner = false"
     />
   </div>

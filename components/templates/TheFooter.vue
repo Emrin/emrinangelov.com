@@ -1,6 +1,6 @@
 <template>
   <footer class="z-10 relative pb-16 lg:pb-0 lg:block">
-    <NewsletterForm />
+<!--    <NewsletterForm />-->
 
     <div
       class="bg-light-elevatedSurface dark:bg-dark-elevatedSurface shadow-nuxt transition-colors duration-300 ease-linear"
@@ -116,16 +116,16 @@ export default {
           }
         ],
         about: [
-          {
-            // key: this.$t('footer.links.support.resources'),
-            key: 'FAQ',
-            to: this.localePath('/faq')
-          },
-          {
-            // key: this.$t('footer.links.support.discord'),
-            key: 'Chat (soon)',
-            href: '#'
-          },
+          // {
+          //   // key: this.$t('footer.links.support.resources'),
+          //   key: 'FAQ',
+          //   to: this.localePath('/faq')
+          // },
+          // {
+          //   // key: this.$t('footer.links.support.discord'),
+          //   key: 'Chat (soon)',
+          //   href: '#'
+          // },
           {
             // key: this.$t('footer.links.support.contributionGuide'),
             key: 'Contact',
@@ -133,21 +133,21 @@ export default {
           }
         ],
         support: [
-          {
-            key: this.$t('footer.links.discover.consulting'),
-            to: this.localePath('/support')
-          },
+          // {
+          //   key: this.$t('footer.links.discover.consulting'),
+          //   to: this.localePath('/support')
+          // },
           {
             // key: this.$t('footer.links.discover.sponsorNuxt'),
             key: this.$t('footer.links.discover.sponsorNuxt'),
             to: this.localePath('/sponsor-nuxtjs')
           },
-          {
-            // key: this.$t('footer.links.discover.shop'),
-            key: 'Shop (soon)',
-            href: '#'
-            // to: this.localePath('shop')
-          }
+          // {
+          //   // key: this.$t('footer.links.discover.shop'),
+          //   key: 'Shop (soon)',
+          //   href: '#'
+          //   // to: this.localePath('shop')
+          // }
         ]
       }
     }

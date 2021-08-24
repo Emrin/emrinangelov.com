@@ -18,12 +18,12 @@
               class="text-nuxt-green dark:text-nuxt-lightgreen mx-auto my-8 w-32"
             />
             <h4 class="text-center uppercase text-2xl pt-8 pb-4 font-medium">
-              {{ $t('homepage.modes.ssr.title') }}
+              {{ $t('homepage.modes.craftsmanship.title') }}
             </h4>
 
             <!-- ssr modes i18n -->
             <i18n
-              path="homepage.modes.ssr.description"
+              path="homepage.modes.craftsmanship.description"
               tag="p"
               class="leading-loose text-left text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
@@ -36,23 +36,17 @@
           <div class="lg:w-1/2 p-4 lg:p-8">
             <SnowIcon class="mx-auto my-8 w-32" />
             <h4 class="text-center uppercase text-2xl pt-8 pb-4 font-medium">
-              {{ $t('homepage.modes.ssg.title') }}
+              {{ $t('homepage.modes.solidification.title') }}
             </h4>
 
             <!-- why ssg i18n -->
             <i18n
-              path="homepage.modes.ssg.description"
+              path="homepage.modes.solidification.description"
               tag="p"
               class="leading-loose text-left text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
               <template #br>
                 <br />
-              </template>
-              <template #proverbial>
-                <span class="text-gray-600">
-                  ({{ $t('homepage.modes.ssg.proverbial') }} 🐦🐦)
-                </span>
-                <br /><br />
               </template>
             </i18n>
           </div>
