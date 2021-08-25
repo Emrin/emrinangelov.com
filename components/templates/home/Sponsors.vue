@@ -5,7 +5,7 @@
         <h1 class="mb-2 text-3xl font-medium uppercase sm:mb-0">
           {{ $t('homepage.sponsors.title') }}
         </h1>
-        <SponsoringIllustration id="sponsor-img" class="inline-block float-right lg:ml-4" />
+        <SponsoringIllustration id="sponsor-img" class="inline-block float-right lg:ml-4" style='width:300px;' />
         <div class="pt-6 pb-12 leading-loose text-left transition-colors duration-300 ease-linear text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary">
           <i18n path='homepage.sponsors.description'>
             <template #break>
@@ -42,7 +42,7 @@
 
 <script>
 import GithubIcon from '~/assets/icons/github.svg?inline'
-import SponsoringIllustration from '~/assets/illustrations/sponsoring.svg?inline'
+import SponsoringIllustration from '~/assets/illustrations/about.svg?inline'
 import sponsors from '~/content/sponsors'
 
 export default {

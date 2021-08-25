@@ -110,8 +110,8 @@
 </template>
 
 <script>
-import PerformantIllustration from '~/assets/illustrations/performant.svg?inline'
 import ModularIllustration from '~/assets/illustrations/modular.svg?inline'
+import PerformantIllustration from '~/assets/illustrations/performant.svg?inline'
 import EnjoyableIllustration from '~/assets/illustrations/enjoyable.svg?inline'
 
 export default {

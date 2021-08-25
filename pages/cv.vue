@@ -11,7 +11,7 @@
               class="sm:mr-4 py-3 px-6 text-base"
               data-cy="download-cv"
             >
-              <GithubIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
+              <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download') }}
             </AppButton>
           </div>
@@ -37,7 +37,7 @@
               class="sm:mr-4 py-3 px-6 text-base"
               data-cy="download-cv"
             >
-              <GithubIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
+              <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download') }}
             </AppButton>
           </div>
@@ -48,11 +48,11 @@
 </template>
 
 <script>
-import GithubIcon from '~/assets/icons/github.svg?inline'
+import DownloadIcon from '~/assets/icons/inbox-in.svg?inline'
 
 export default {
   components: {
-    GithubIcon
+    DownloadIcon
   },
   head() {
     const title = this.$i18n.t('homepage.meta.title')

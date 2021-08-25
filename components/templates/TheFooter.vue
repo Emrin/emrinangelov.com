@@ -99,21 +99,21 @@ export default {
     return {
       links: {
         discover: [
-          {
-            // key: this.$t('footer.links.about.team'),
-            key: 'Twitter',
-            href: 'https://twitter.com/cyberlypse'
-          },
+          // {
+          //   // key: this.$t('footer.links.about.team'),
+          //   key: 'Twitter',
+          //   href: 'https://twitter.com/cyberlypse'
+          // },
           {
             // key: this.$t('footer.links.about.contact'),
             key: 'Aclipt',
             href: 'https://aclipt.com/autre/paris/aclipt'
           },
-          {
-            // key: this.$t('footer.links.about.design'),
-            key: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/emrin-angelov/'
-          }
+          // {
+          //   // key: this.$t('footer.links.about.design'),
+          //   key: 'LinkedIn',
+          //   href: 'https://www.linkedin.com/in/emrin-angelov/'
+          // }
         ],
         about: [
           // {

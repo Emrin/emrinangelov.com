@@ -108,13 +108,13 @@ module.exports = {
       solidification: {
         title: 'Solidification',
         description:
-        'Automating. Consulting. Perfecting. Once you have an organism running, it\'s primordial that you solidify its stability, mainstream its maintenance and integration processes, and give your leadership the mindset to win. When you are too deep in your project, it is often easier to miss details that cause internal friction and slow down your processes, this is why technical and leadership consulting can be so beneficial: it can fix and correct the internal gears of your organization in such a way that will propel you towards your goals.',
+        'Automating. Consulting. Perfecting. Once you have an organism running, it\'s primordial that you solidify its stability, mainstream its maintenance and integration processes, and give your leadership the mindset to win. When you are too deep in your project, it is often easier to miss details that cause internal friction and slow down your processes; this is why technical and leadership consulting can be so beneficial: it can fix and correct the internal gears of your organization in such a way that will propel you towards your goals.',
       }
     },
     sponsors: {
       title: 'About me',
       description:
-      'I am a warrior, a builder, and a philosopher. I have a Master\'s Degree in Engineering, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m constantly on the hunt for learning and novelty. I specialize in creation, optimization, and leadership. I enjoy working on high-impact projects with many moving parts. Ground-up or fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.\n',
+      'I am a warrior, a builder, and a philosopher. I have a Master\'s Degree in Engineering, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m always on the hunt for learning and novelty. I specialize in creation, optimization, and leadership. I enjoy working on high-impact projects with many moving parts. Ground-up or fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.\n',
       become_a_sponsor: 'Contact'
     },
     newsletter: {

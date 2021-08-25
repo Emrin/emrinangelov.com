@@ -31,10 +31,10 @@ module.exports = {
       },
       colors: {
         nuxt: {
+          // Dark: 0c2442  Light: #4f7492
           // gray: '#2F495E',
           // lightgreen: '#00C58E',
           // green: '#108775'
-          // Dark: 0c2442  Light: #4f7492
           // gray: '#2F495E',
           // lightgreen: '#00a1c5',
           // green: '#105d87'
