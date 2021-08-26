@@ -30,7 +30,7 @@
 <!--        </div>-->
 
         <div class="text-center">
-          <AppButton :to="localePath({ name: 'sponsor-nuxtjs' })" data-cy="sponsors" class="px-6 py-3 text-base">
+          <AppButton :to="localePath({ name: 'contact' })" data-cy="sponsors" class="px-6 py-3 text-base">
             <GithubIcon slot="icon" class="inline-block h-5 mr-1 -mt-1" />
             {{ $t('homepage.sponsors.become_a_sponsor') }}
           </AppButton>

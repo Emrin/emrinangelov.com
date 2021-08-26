@@ -76,7 +76,7 @@ export default {
     'vue-plausible'
   ],
   modules: [
-    '~/modules/releases',
+    // '~/modules/releases',
     '@nuxt/http',
     '@nuxt/content',
     'nuxt-i18n',
@@ -118,11 +118,11 @@ export default {
     '~/plugins/directives',
     '~/plugins/intersection-observer.client.js',
     '~/plugins/vue-observe-visibility.client.js',
-    '~/plugins/ga.client.js',
+    // '~/plugins/ga.client.js',
     '~/plugins/adblock.client.js',
-    '~/plugins/newsletter.client.js',
+    // '~/plugins/newsletter.client.js',
     '~/plugins/vue-scrollactive',
-    '~/plugins/contributors',
+    // '~/plugins/contributors',
     '~/plugins/youtube.client.js'
   ],
   env: {
@@ -187,7 +187,15 @@ export default {
 
       item.readingTime = stats
     }
-  }
+  },
+
+  // For deploying at Github Pages without a CNAME
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/emrinangelov.com/' : '/'
+  },
+
+
+
   // // DEV MODE with HMR on Docker:
 // // 1. Delete node_modules (and maybe yarn.lock) because Linux
 // // docker run -dp 3000:3000 -w /app -v "$(pwd):/app" --env HOST=0.0.0.0

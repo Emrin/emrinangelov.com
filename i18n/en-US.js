@@ -70,7 +70,7 @@ module.exports = {
     why: {
       title: 'Why Work {together}',
       together: 'Together',
-      try_nuxtjs_online: 'Get a Quote',
+      try_nuxtjs_online: 'Get in Touch',
       competence: {
         title: 'Competence',
         description:
