@@ -10,9 +10,9 @@
         </i18n>
         <div class='mx-auto text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary'>
           <ul>
-            <li>Email: <a href='mailto:emrinangelov@gmail.com'>emrinangelov@gmail.com</a></li>
+            <li>Protonmail: <a href='mailto:emrinangelov@pm.me'>emrinangelov@pm.me</a></li>
+            <li>Gmail: <a href='mailto:emrinangelov@gmail.com'>emrinangelov@gmail.com</a></li>
 <!--            <li>Protonmail: <a href='mailto:cyberlypse@protonmail.com'>cyberlypse@protonmail.com</a></li>-->
-            <li>Protonmail: <a href='mailto:emrinangelov@protonmail.com'>emrinangelov@protonmail.com</a></li>
             <li>LinkedIn: <a href='https://www.linkedin.com/in/emrin-angelov/'>linkedin.com/in/emrin-angelov</a></li>
 <!--            <li>Twitter: <a href='https://twitter.com/cyberlypse'>Cyberlypse</a></li>-->
           </ul>
