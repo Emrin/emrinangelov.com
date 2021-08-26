@@ -139,12 +139,10 @@ export default {
       if (key.code === 'F12') {
         window.removeEventListener('keyup', this.detectDevTool)
         setTimeout(() => {
-          if (process.env.NODE_ENV === 'production') this.welcomeGif('https://emrinangelov.com/hello-there.gif')
-          else this.welcomeGif('http://localhost:3000/hello-there.gif')
+          this.welcomeGif('https://emrinangelov.com/hello-there.gif')
         }, 3000)
         setTimeout(() => {
-          if (process.env.NODE_ENV === 'production') this.welcomeGif('https://emrinangelov.com/haha.gif')
-          else this.welcomeGif('http://localhost:3000/haha.gif')
+          this.welcomeGif('https://emrinangelov.com/haha.gif')
         }, 540000)
       }
     },
