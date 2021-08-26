@@ -189,10 +189,10 @@ export default {
     }
   },
 
-  // For deploying at Github Pages without a CNAME
-  router: {
-    base: process.env.NODE_ENV === 'production' ? '/emrinangelov.com/' : '/'
-  },
+  // // For deploying at Github Pages without a CNAME
+  // router: {
+  //   base: process.env.NODE_ENV === 'production' ? '/emrinangelov.com/' : '/'
+  // },
 
 
 
