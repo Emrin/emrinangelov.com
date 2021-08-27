@@ -16,19 +16,14 @@ module.exports = {
   header: {
     links: [
       {
-        name: 'Docs',
-        icon: 'books',
-        slug: 'docs-2.x-book-slug'
-      },
-      {
-        name: 'Exemples',
+        name: 'Index',
         icon: 'code',
-        slug: 'examples'
+        slug: 'index'
       },
       {
-        name: 'Ressources',
-        icon: 'resources',
-        slug: 'resources'
+        name: 'CV',
+        icon: 'books',
+        slug: 'cv'
       },
       {
         name: 'Blog',
@@ -36,10 +31,10 @@ module.exports = {
         slug: 'blog'
       },
       {
-        name: 'Cours Video',
-        icon: 'video',
-        href: 'https://masteringnuxt.com/?utm_source=nuxt&utm_medium=link&utm_campaign=navbar_link'
-      }
+        name: 'Contact',
+        icon: 'resources',
+        slug: 'contact'
+      },
     ],
     search: {
       placeholder: 'Rechercher'
@@ -47,68 +42,78 @@ module.exports = {
   },
   homepage: {
     meta: {
-      title: 'Nuxt.js - Le Framework Vue.js Intuitif',
+      title: 'Emrin Angelov - Index',
       description:
-        "Nuxt.js fournit toutes les configurations nécessaires pour rendre vos développements d'application Vue.js agréable. Nuxt.js peut créer des Applications Universelles, Monopages ou Statiques Générées."
+      'Créez vos projets en toute confiance avec le meilleur ingénieur et informaticien au monde. Construisez, automatisez et dirigez pour gagner.'
     },
     welcome: {
-      title: 'Le Framework Intuitif {br} basé sur {frameworkType}',
+      title: '{part1} et{br}Perfectionnement de {part3}',
+      title_part1: 'Ingénierie',
+      title_part2: 'Perfectionnement',
+      title_part3: 'Votre Vision',
       description:
-        'Construisez votre prochaine application Vue.js en toute confiance avec NuxtJS. Un framework {openSource} rendant le développement web simple et puissant.',
-      openSource: 'open source',
+        'Vous cherchez la bonne personne pour construire votre projet? Vous êtes arrivé au bon endroit. Il n\'y a pas de limite à ce que nous pouvons accomplir ensemble.',
       get_started: 'Commencer',
-      get_updates:
-        'Recevez chaque mois les mises à jour de Nuxt dans votre boîte de réception',
-      video:
-        'Vidéo produite par {company}, téléchargez gratuitement {cheatSheet}.',
-      cheatSheet: 'Nuxt Cheat Sheet'
+      previous_work: 'Consulter CV',
+      get_updates: 'Recevez chaque mois des mises à jour et des memes dans votre boîte de réception',
+      video: 'Vidéo me mettant en scène, réalisée par moi-même.',
     },
     why: {
-      title: 'Pourquoi {nuxt}',
-      try_nuxtjs_online: 'Essayez NuxtJS Online',
-      enjoyable: {
-        title: 'Agréable',
+      title: 'Pourquoi Travailler {together}',
+      together: 'Ensemble',
+      try_nuxtjs_online: 'Entrer en contact',
+      competence: {
+        title: 'Compétence',
         description:
-          "Notre principal objectif est l'expérience des développeurs. Nous aimons Nuxt.js et améliorons continuellement le framework pour que vous l'aimiez aussi! {break} Attendez-vous à des solutions attrayantes, des messages d'erreur descriptifs, des paramètres par défaut puissants et une documentation détaillée. Si des questions ou des problèmes surviennent, notre communauté attentionnée vous aidera."
+          'Grâce à un travail approfondi sur un large éventail d\'outils et de technologies, j\'ai acquis une grande compétence dans l\'artisanat du logiciel. Il existe cependant des domaines qui nécessitent des années d\'expérience ou un ensemble de compétences complètement différent ; dans ces cas, je vais vous expliquer exactement ce qu\'il faut faire et vous présenter des contacts précieux avec la bonne expertise. Je suis l\'expert sur qui vous pouvez compter.'
       },
-      modular: {
-        title: 'Modulaire',
+      support: {
+        title: 'Soutien',
         description:
-          "Nuxt repose sur une puissante architecture modulaire. Vous pouvez choisir parmi plus de 50 modules pour rendre votre développement plus rapide et plus facile. Il n'est pas nécessaire de réinventer la roue pour obtenir les avantages PWA, ajouter Google Analytics à votre page ou générer un plan du site."
+          'Bénéficiez d\'une assistance inégalée. Je m\'adapterai à vos systèmes et besoins. Un soutien approprié est un service extrêmement précieux. Vous bénéficierez non seulement d\'un soutien technique et marketing, mais également d\'un soutien en matière de leadership. Je fais toujours tout mon possible pour faire le meilleur travail possible pour mes clients. Avancez rapidement dans la bonne direction, laissez-moi et mes contacts regarder vers le bas et dans les détails, afin que vous puissiez regarder vers le haut et vers votre prochaine étape.'
       },
-      performant: {
-        title: 'Performant',
+      privacy: {
+        title: 'Confidentialité',
         description:
-          "Avec Nuxt.js, votre application sera optimisée et prête à l'emploi. Nous faisons de notre mieux pour créer des applications performantes en appliquant les meilleures pratiques de Vue.js et Node.js. Pour tirer le meilleur parti de votre application, Nuxt inclut un analyseur de bundles et de nombreuses possibilités d'ajuster votre application."
+          'La vie privée est d\'une importance primordiale, surtout à cette époque. Il va sans dire que je ne divulguerai aucune information qui n\'est pas destinée à être publique. Dans mon {contact}, j\'ai mis une liste de façons dont vous pouvez me contacter, et si vous avez besoin d\'une confidentialité absolue (ou d\'oignons), je vous recommande de me contacter via Protonmail. {link}',
+        contact: 'page de contact',
+        link: 'J\'accepte également les paiements cryptographiques.',
       }
     },
     companies: {
-      title: 'Qui utilise {nuxt}'
+      title: "Une liste inclusive d'{expertise}",
+      dev: 'DÉVELOPPEMENT: Développement Web et mobile Cloud-Native, Full-Stack',
+      ops: 'OPÉRATIONS: Intégration et développement continus, Cybersécurité, Automatisation',
+      lead: 'CONSEIL EN LEADERSHIP: Évaluations, formation, conseil stratégique',
+      contact: 'Intéressé à faire partie de la société de conseil en formation? {contact} pour plus de détails.',
+      c: 'Contactez-moi',
     },
     modes: {
-      title: 'Rendu {nuxt}',
-      ssr: {
-        title: 'Server Side Rendered (SSR)',
+      title: 'Ce que je {offer}',
+      offer: 'Propose',
+      craftsmanship: {
+        title: 'Ingénierie',
         description:
-          'Le mode le plus populaire pour Nuxt. Avec le rendu côté server (SSR), également appelé mode "universel" ou "isomorphe", un serveur Node.js sera utilisé pour fournir du HTML basé sur vos composants Vue au client au lieu du pur javascript. L\'utilisation du SSR entraînera une amélioration considérable de votre SEO, un meilleur UX et plus d\'opportunités (par rapport à une Vue SPA traditionnelle).{break}Parce que la mise en place du SSR par vous-même peut être vraiment fastidieuse, Nuxt.js vous offre un support complet et s\'occupera des pièges courants.'
+          'Construction. Automatisation. Améliorer. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d\'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L\'importance est et sera toujours la création, la croissance et la perfection des technologies, et nous le verrons faire.'
       },
-      ssg: {
-        title: 'Static Site Generation (SSG)',
+      solidification: {
+        title: 'Solidification',
         description:
-          "La génération de sites statiques est un sujet à la mode en ce moment (aka JAMStack). Au lieu de passer à un autre framework et de passer du temps à s'y habituer, pourquoi ne pas faire d'une pierre deux coups ? {proverbial} Nuxt.js prend en charge la génération d'un site statique basé sur votre application Vue. C'est le \"meilleur des deux mondes\" car vous n'avez pas besoin d'un serveur mais vous avez toujours des avantages SEO car Nuxt pré-rendra toutes les pages et inclura le HTML nécessaire. En outre, vous pouvez déployer facilement la page résultante sur des pages Netlify ou GitHub.",
-        proverbial: "comme le dit l'expression"
+          'Automatisation. Conseil. Perfection. Une fois que vous avez un organisme en marche, il est primordial de solidifier sa stabilité, d\'optimiser ses processus de maintenance et de donner à vos dirigeants l\'état d\'esprit pour gagner. Lorsque vous êtes profondément dans votre projet, il est plus facile de manquer les détails qui provoquent des frictions internes et ralentissent vos processus; c\'est pourquoi le conseil technique et leadership peut être si bénéfique: il peut réparer et corriger les rouages internes de votre organisation de manière à vous propulser vers vos objectifs.',
       }
     },
     sponsors: {
-      title: 'Sponsors',
+      title: 'À propos de moi',
       description:
-        'NuxtJS est un projet open source sous licence MIT entièrement gratuit. Cependant, les efforts nécessaires pour maintenir et développer de nouvelles fonctionnalités pour le projet ne sont pas durables sans un soutien financier adéquat. Si vous exploitez une entreprise et utilisez Nuxt dans un produit générateur de revenus, il est logique de parrainer le développement Nuxt: cela garantit que le projet sur lequel votre produit repose reste en bonne santé et activement entretenu. Cela peut également vous aider à mieux faire connaître votre entreprise dans la communauté Vue/Nuxt et à attirer plus facilement les développeurs Vue/Nuxt. Si vous êtes un utilisateur individuel et avez apprécié la productivité de l’utilisation de Nuxt, envisagez de faire un don en guise de remerciement.',
-      become_a_sponsor: 'Devenir sponsor'
+        'Je suis un guerrier, un architecte et un philosophe. J\'ai un grade de master en ingénierie, établie par la France. J\'ai vécu et étudié dans de nombreux pays européens et je peux parler, penser et raisonner dans plusieurs langues culturellement diverses. Chercher constamment à s\'améliorer est une seconde nature pour moi, je suis donc toujours à la chasse au savoir et à la nouveauté. Je me spécialise dans la création, l\'optimisation et le leadership. J\'aime travailler sur des projets à fort impact et avec de nombreuses pièces mobiles. Je suis convaincu que l\'apport de mon point de vue et de mon expertise sera très utile à vos organisations.',
+      diploma: 'grade de master en ingénierie',
+      become_a_sponsor: 'Contact'
     },
     newsletter: {
-      title: '{nuxt} Newsletter',
+      title: 'La Newsletter {fun}',
+      title2: 'Fun',
       description:
-        "Recevez les dernières nouvelles de Nuxt dans votre boîte de réception, organisée par l'équipe Nuxt et les contributeurs.",
+      'À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d\'augmenter ces chiffres de recrue.',
       form: {
         email: 'Email',
         subscribing: "S'abonner",
@@ -119,6 +124,25 @@ module.exports = {
         }
       }
     }
+  },
+  contact: {
+    title: 'Détails de {contact}',
+    title2: 'Contact',
+    message: 'Envoyer un {message}',
+    anon: 'Vous pouvez également utiliser ce formulaire pour envoyer rapidement un courrier anonyme.',
+    a2: 'message',
+    description:
+      'À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d\'augmenter ces chiffres de recrue.',
+    form: {
+      email: 'Courriel (facultatif)',
+      message: 'Message',
+      sending: 'Envoi en cours...',
+      send: 'Envoyer',
+      sent: 'Message envoyé !'
+    }
+  },
+  cv: {
+    download: 'Télécharger le CV (Anglais)',
   },
   design: {
     meta: {
@@ -202,13 +226,13 @@ module.exports = {
   },
   sponsor: {
     meta: {
-      title: 'Sponsor de développement NuxtJS',
+      title: 'Sponsor',
       description:
-        'Vous pouvez prendre en charge le développement NuxtJS via différentes méthodes et assurer des mises à jour régulières du framework.'
+        'Vous pouvez me soutenir via différentes méthodes.'
     },
-    title: 'Sponsor de développement {nuxt}',
+    title: 'Sponsor',
     description:
-      "NuxtJS est un projet open source sous licence MIT et totalement gratuit d'utilisation.{break} Cependant, les efforts nécessaires pour maintenir et développer de nouvelles fonctionnalités pour le projet ne sont pas durables sans un soutien financier approprié.{break} Vous pouvez soutenir le développement NuxtJS via les méthodes suivantes:",
+      'BTC: 3LYu69HdChTW4xEScBdVUbf2HrknLFA1FX{break}Ethereum: 0x84cb10f7a997eefc7a16eb6c2f84f81b5243b33c{break}Monero: 834wWuKWuBjjHu2roitmEeGLDWUqEKk9HDezaxs9ykXsSxjgbZpUR5M1MF6D7y2b3hC57BHeBouS9i6JKBwTfPy467EFWYS{break}Nano: nano_3fc87qsxgratp9f8151i7hx1o6agomadcm7dgktcnqcx9p3yxaskj5h7n78o{break}Doge: DEQavxTeQpqgpt59GxfZMEfHbmQKmktFnB',
     donations: {
       title: 'Dons uniques',
       description: 'Nous acceptons les dons via ces canaux'
@@ -253,15 +277,15 @@ module.exports = {
   },
   blog: {
     meta: {
-      title: 'Blog NuxtJS',
+      title: 'Blog',
       description:
-        "Découvrez les articles de l'équipe et de la communauté NuxtJS, conseils et astuces inclus!"
+        'Découvrez des articles écrits par Emrin Angelov sur toutes sortes de sujets intéressants.'
     },
-    title: 'Blog {nuxt}',
+    title: 'Blog',
     description:
-      'Découvrez les articles de {nuxtTeam} et {nuxtCommunity} à propos de NuxtJS ainsi que des astuces !',
-    nuxt_team: 'NuxtJS Team',
-    nuxt_community: 'Nuxt.js Community',
+      'Découvrez des articles sympas sur toutes sortes de choses intéressantes !',
+    nuxt_team: 'Team',
+    nuxt_community: 'Community',
     contribute:
       'Vous avez commis une erreur ou souhaitez contribuer à cet article de blog ?'
   },

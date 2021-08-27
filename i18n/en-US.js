@@ -3,8 +3,7 @@ module.exports = {
     an_error_occurred: 'An error occurred',
     page_not_found: 'Page not found',
     please_define_title: 'Please define a title in the front matter',
-    please_define_description:
-      'Please define a description in the front matter',
+    please_define_description: 'Please define a description in the front matter',
     search: 'Search ("/" to focus)',
     version: 'Version'
   },
@@ -36,11 +35,6 @@ module.exports = {
         icon: 'resources',
         slug: 'contact'
       },
-      // {
-      //   name: 'Video Courses',
-      //   icon: 'video',
-      //   href: 'https://masteringnuxt.com/?utm_source=nuxt&utm_medium=link&utm_campaign=navbar_link'
-      // }
     ],
     search: {
       placeholder: 'Search ("/" to focus)'
@@ -50,13 +44,10 @@ module.exports = {
     meta: {
       title: 'Emrin Angelov - Engineering Anything',
       description:
-        'Build anything to perfection with the world\'s best engineer and computer scientist. Cutting-edge technology is the new normal.'
-        // 'Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful.'
+        'Create anything with confidence together with the world\'s leading engineer and computer scientist. Build, automate, and lead to win.'
     },
     welcome: {
-      // title: 'An {engineer}{br} Like No Other',
-      // title: 'Creating, Optimizing,{br} and Leading You to Your Dreams',
-      title: '{part1} and {br}Perfecting {part3}',
+      title: '{part1} and{br}Perfecting {part3}',
       title_part1: 'Engineering',
       title_part2: 'Perfecting',
       title_part3: 'Your Vision',
@@ -114,7 +105,8 @@ module.exports = {
     sponsors: {
       title: 'About me',
       description:
-      'I am a warrior, a builder, and a philosopher. I have a Master\'s Degree in Engineering, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m always on the hunt for learning and novelty. I specialize in creation, optimization, and leadership. I enjoy working on high-impact projects with many moving parts. Ground-up or fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.\n',
+      'I am a warrior, an architect, and a philosopher. I have a {diploma}, established by France. I have lived and studied in numerous European countries, and can speak, think, and reason in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I\'m always on the hunt for learning and novelty. I specialize in creation, optimization, and leadership. I enjoy working on high-impact projects with many moving parts. Ground-up or fully established. I\'m positive the input of my point of view and expertise will be of great benefit to your organizations.',
+      diploma: 'Master\'s Degree in Engineering',
       become_a_sponsor: 'Contact'
     },
     newsletter: {
@@ -237,9 +229,9 @@ module.exports = {
   },
   sponsor: {
     meta: {
-      title: 'About me',
+      title: 'Sponsor & Donate',
       description:
-        'You can support NuxtJS development via different methods and ensure regular updates to the framework.'
+        'You can support me via different methods.'
     },
     title: 'Sponsor & Donate',
     description:
@@ -292,11 +284,11 @@ module.exports = {
       description:
         'Discover articles written by Emrin Angelov about all sorts of interesting topics.'
     },
-    title: 'Blog',
+    title: 'Blogs, Poems, and Short Stories',
     description:
       'Discover cool articles about all sorts of interesting things!',
-    nuxt_team: 'NuxtJS Team',
-    nuxt_community: 'Nuxt.js Community',
+    nuxt_team: 'Team',
+    nuxt_community: 'Community',
     contribute: 'Caught a mistake or want to contribute to this blog post?'
   },
   guide: {

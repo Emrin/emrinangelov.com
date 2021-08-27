@@ -142,8 +142,24 @@ export default {
           this.welcomeGif('https://emrinangelov.com/hello-there.gif')
         }, 3000)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/haha.gif')
+          this.welcomeGif('https://emrinangelov.com/gandalf.gif')
         }, 540000)
+        setTimeout(() => {
+          this.welcomeGif('https://emrinangelov.com/ride.gif')
+        }, 1080000)
+        setTimeout(() => {
+          this.welcomeGif('https://emrinangelov.com/drink.gif')
+          console.log('Yo - Remember to drink.')
+        }, 1620000)
+        setTimeout(() => {
+          this.welcomeGif('https://emrinangelov.com/hackerman.jpg')
+        }, 2160000)
+        setTimeout(() => {
+          this.welcomeGif('https://emrinangelov.com/haha.gif')
+        }, 2700000)
+        setTimeout(() => {
+          this.welcomeGif('https://emrinangelov.com/travolta.gif')
+        }, 3240000)
       }
     },
   }

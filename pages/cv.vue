@@ -35,7 +35,7 @@
               href='/CV.pdf'
               variant="primary"
               class="sm:mr-4 py-3 px-6 text-base"
-              data-cy="download-cv"
+              data-cy="download-cv2"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download') }}

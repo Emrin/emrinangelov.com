@@ -10,7 +10,6 @@
 
       <BlogpostItem :post="post" />
       <BlogpostNavigationLinks :prev="prev" :next="next" />
-      <AppContribute :doc-link="docLink" :contributors="contributors" />
     </div>
   </div>
 </template>
@@ -34,7 +33,6 @@ export default {
   scrollToTop: true,
   async asyncData ({
     $content,
-    $contributors,
     store,
     app,
     params,
@@ -60,8 +58,6 @@ export default {
       }
     }
 
-    const contributors = await $contributors(`/content${path}/${slug}`)
-
     try {
       ;[prev, next] = await $content(path)
         .only(['title', 'slug'])
@@ -73,7 +69,6 @@ export default {
     return {
       post,
       slug,
-      contributors,
       prev,
       next,
       path

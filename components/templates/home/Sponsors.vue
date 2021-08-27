@@ -11,6 +11,9 @@
             <template #break>
               <br />
             </template>
+            <template #diploma>
+              <span><a href='/diplome.pdf' download=''>{{ $t('homepage.sponsors.diploma') }}</a></span>
+            </template>
           </i18n>
         </div>
 
