@@ -11,7 +11,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Emrin Angelov' },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Emrin Angelov'
+      },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@cyberlypse' },
       {
@@ -42,7 +46,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preconnect', href: 'https://www.google-analytics.com' },
+      { rel: 'preconnect', href: 'https://www.google-analytics.com' }
       // {
       //   rel: 'stylesheet',
       //   type: 'text/css',
@@ -85,7 +89,7 @@ export default {
   pwa: {
     manifest: {
       name: 'Emrin Angelov',
-      description: 'Emrin Angelov\'s official website',
+      description: "Emrin Angelov's official website",
       theme_color: '#379bea'
     }
   },
@@ -128,8 +132,7 @@ export default {
   env: {
     DEPLOY_PRIME_URL: process.env.DEPLOY_PRIME_URL || false,
     URL: process.env.URL || false,
-    DOC_SEARCH_API_KEY:
-      process.env.DOC_SEARCH_API_KEY || 'wasdwasd',
+    DOC_SEARCH_API_KEY: process.env.DOC_SEARCH_API_KEY || 'wasdwasd',
     NUXT_API: process.env.NUXT_API || 'https://api.emrinangelov.com'
   },
   publicRuntimeConfig: {
@@ -154,16 +157,24 @@ export default {
         iso: 'en-US',
         file: 'en-US.js',
         name: 'English',
+        domain:
+          process.env.CONTEXT === 'development'
+            ? 'localhost:3000'
+            : 'https://emrinangelov.com'
         // domain: process.env.NODE_ENV === 'production' ? 'https://emrinangelov.com' : 'localhost:3000'
-        domain: 'https://emrinangelov.com'
+        // domain: 'https://emrinangelov.com'
       },
       {
         code: 'fr',
         iso: 'fr-FR',
         file: 'fr-FR.js',
         name: 'Français',
+        domain:
+          process.env.CONTEXT === 'development'
+            ? 'fr.localhost:3000'
+            : 'https://fr.emrinangelov.com'
         // domain: process.env.NODE_ENV === 'production' ? 'https://fr.emrinangelov.com' : 'fr.localhost:3000'
-        domain: 'https://fr.emrinangelov.com'
+        // domain: 'https://fr.emrinangelov.com'
       }
     ],
     vueI18n: {
@@ -190,29 +201,27 @@ export default {
 
       item.readingTime = stats
     }
-  },
+  }
 
   // // For deploying at Github Pages without a CNAME
   // router: {
   //   base: process.env.NODE_ENV === 'production' ? '/emrinangelov.com/' : '/'
   // },
 
-
-
   // // DEV MODE with HMR on Docker:
-// // 1. Delete node_modules (and maybe yarn.lock) because Linux
-// // docker run -dp 3000:3000 -w /app -v "$(pwd):/app" --env HOST=0.0.0.0
-// // --env PORT=3000 node:alpine sh -c "yarn install && yarn dev"
-// // And have this set to fix HMR.
-// watchers: {
-//   webpack: {
-//     aggregateTimeout: 300,
-//     poll: 1000
-//   }
-// },
+  // // 1. Delete node_modules (and maybe yarn.lock) because Linux
+  // // docker run -dp 3000:3000 -w /app -v "$(pwd):/app" --env HOST=0.0.0.0
+  // // --env PORT=3000 node:alpine sh -c "yarn install && yarn dev"
+  // // And have this set to fix HMR.
+  // watchers: {
+  //   webpack: {
+  //     aggregateTimeout: 300,
+  //     poll: 1000
+  //   }
+  // },
 
-// // PROD MODE on K8S:
-// // 1. Build a prod image with Dockerfile (and dockerignore)
-// // 2. Create a YAML file for its deployment and service
-// // 3. kubectl apply -f frontend.yaml
+  // // PROD MODE on K8S:
+  // // 1. Build a prod image with Dockerfile (and dockerignore)
+  // // 2. Create a YAML file for its deployment and service
+  // // 3. kubectl apply -f frontend.yaml
 }
