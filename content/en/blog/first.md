@@ -89,7 +89,3 @@ info box
 <video poster="/blog/first/gandalf.gif" loop="loop" plays-inline="true" controls="controls">
   <source src="/blog/first/frodo-gandalf.mp4" type="video/mp4">
 </video>
-
-<video poster="blog/first/gandalf.gif" loop="loop" plays-inline="true" controls="controls">
-  <source src="blog/first/frodo-gandalf.mp4" type="video/mp4">
-</video>
