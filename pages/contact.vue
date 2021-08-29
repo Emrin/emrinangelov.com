@@ -7,6 +7,12 @@
 
 <script>
 export default {
+  // nuxtI18n: {
+  //   paths: {
+  //     en: '/contact',
+  //     fr: '/contacter',
+  //   }
+  // },
   head() {
     const title = this.$i18n.t('homepage.meta.title')
     const description = this.$i18n.t('homepage.meta.description')

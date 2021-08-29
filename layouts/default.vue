@@ -37,41 +37,17 @@ export default {
 
       meta: [
         // Open Graph
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: this.$i18n.t('homepage.meta.title')
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: this.$i18n.t('homepage.meta.description')
-        },
-        {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: this.$i18n.t('homepage.meta.title')
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: this.$i18n.t('homepage.meta.description')
-        }
+        { hid: 'og:title', property: 'og:title', content: this.$i18n.t('homepage.meta.title') },
+        { hid: 'og:description', property: 'og:description', content: this.$i18n.t('homepage.meta.description') },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.$i18n.t('homepage.meta.title') },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.$i18n.t('homepage.meta.description') }
       ],
       ...i18nSeo,
 
       link: [
         { rel: 'canonical', href: canonical },
-        {
-          rel: 'alternate',
-          hreflang: 'en',
-          href: `https://emrinangelov.com${pathWithSlash}`
-        },
-        {
-          rel: 'alternate',
-          hreflang: 'fr',
-          href: `https://fr.emrinangelov.com${pathWithSlash}`
-        },
+        { rel: 'alternate', hreflang: 'en', href: `https://emrinangelov.com${pathWithSlash}` },
+        { rel: 'alternate', hreflang: 'fr', href: `https://fr.emrinangelov.com${pathWithSlash}` },
 
         ...i18nSeo.link
       ]
