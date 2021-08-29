@@ -42,6 +42,7 @@ Unless if you're playing against a fast computer, then it's less fun.
 
 Images are stored in the static folder under blog and in a folder with the filename.
 
+![My image alt tag](https://emrinangelov.com/blog/first/gandalf.gif)
 ![My image alt tag](/blog/first/gandalf.gif)
 
 ## Example codeblock
@@ -87,6 +88,6 @@ info box
 
 ## Example video
 
-<video poster="/blog/first/gandalf.gif" loop="loop" plays-inline="true" controls="controls">
-  <source src="/blog/first/frodo-gandalf.mp4" type="video/mp4">
+<video poster="https://emrinangelov.com/blog/first/gandalf.gif" loop="loop" plays-inline="true" controls="controls">
+  <source src="https://emrinangelov.com/blog/first/frodo-gandalf.mp4" type="video/mp4">
 </video>
