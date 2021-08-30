@@ -41,18 +41,7 @@ Unless if you're playing against a fast computer, then it's less fun.
 
 Images are stored in the static folder under blog and in a folder with the filename.
 
-1
 ![My image alt tag](/blog/first/gandalf.gif)
-2
-![My image alt 2](blog/first/gandalf.gif)
-3
-![My image alt 3](/first/gandalf.gif)
-4
-![My image alt 4](first/gandalf.gif)
-5
-![My image alt 5](/gandalf.gif)
-6
-![My image alt 6](gandalf.gif)
 
 ## Example codeblock
 

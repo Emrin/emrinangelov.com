@@ -31,6 +31,7 @@ I use this blog as a baseline for my future blogs.
 Images are stored in the static folder under blog and in a folder with the filename.
 
 ![My image alt tag](/blog/first/gandalf.gif)
+![My image alt 5](/gandalf.gif)
 
 ## Example codeblock
 

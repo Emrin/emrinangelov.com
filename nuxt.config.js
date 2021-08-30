@@ -61,7 +61,7 @@ export default {
   },
   buildModules: [
     // https://github.com/teamnovu/nuxt-breaky
-    '@teamnovu/nuxt-breaky',
+    // '@teamnovu/nuxt-breaky',
     // https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // https://github.com/nuxt-community/color-mode-module
