@@ -31,31 +31,11 @@ module.exports = {
       },
       colors: {
         nuxt: {
-          // Dark: 0c2442  Light: #4f7492
-          // gray: '#2F495E',
-          // lightgreen: '#00C58E',
-          // green: '#108775'
-          // gray: '#2F495E',
-          // lightgreen: '#00a1c5',
-          // green: '#105d87'
-
           gray: '#2F495E',
           lightgreen: '#00aadc',
           green: '#0a74a8'
         },
         primary: {
-          // base: '#00C58E',
-          // light: '#00E0A1',
-          // dark: '#07A377'
-
-          // base: '#00a1c5',
-          // light: '#00d9e0',
-          // dark: '#0774a3'
-
-          // base: '#0b8ab8',
-          // light: '#67a0c7',
-          // dark: '#0c2442'
-
           base: '#0a74a8',
           light: '#00c2ff',
           dark: '#2F495E'

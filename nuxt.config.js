@@ -47,11 +47,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://www.google-analytics.com' }
-      // {
-      //   rel: 'stylesheet',
-      //   type: 'text/css',
-      //   href: 'https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css'
-      // }
     ],
     bodyAttrs: {
       class: [
@@ -61,7 +56,7 @@ export default {
   },
   buildModules: [
     // https://github.com/teamnovu/nuxt-breaky
-    // '@teamnovu/nuxt-breaky',
+    '@teamnovu/nuxt-breaky',
     // https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // https://github.com/nuxt-community/color-mode-module
@@ -75,17 +70,9 @@ export default {
     // https://github.com/Atinux/nuxt-tailwindcss/
     '@nuxtjs/tailwindcss',
     // https://pwa.nuxtjs.org
-    '@nuxtjs/pwa',
-    // https://github.com/moritzsternemann/vue-plausible
-    'vue-plausible'
+    '@nuxtjs/pwa'
   ],
-  modules: [
-    // '~/modules/releases',
-    '@nuxt/http',
-    '@nuxt/content',
-    'nuxt-i18n',
-    'vue-scrollto/nuxt'
-  ],
+  modules: ['@nuxt/http', '@nuxt/content', 'nuxt-i18n', 'vue-scrollto/nuxt'],
   pwa: {
     manifest: {
       name: 'Emrin Angelov',
@@ -122,11 +109,7 @@ export default {
     '~/plugins/directives',
     '~/plugins/intersection-observer.client.js',
     '~/plugins/vue-observe-visibility.client.js',
-    // '~/plugins/ga.client.js',
-    '~/plugins/adblock.client.js',
-    // '~/plugins/newsletter.client.js',
     '~/plugins/vue-scrollactive',
-    // '~/plugins/contributors',
     '~/plugins/youtube.client.js'
   ],
   env: {

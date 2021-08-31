@@ -1,5 +1,5 @@
 const isProd = process.env.CONTEXT === 'production'
-const isTest = Boolean(process.env.DEPLOY_PRIME_URL && !isProd)
+const isTest = false
 
 export const state = () => ({
   host:
