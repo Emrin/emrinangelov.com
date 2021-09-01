@@ -1,8 +1,20 @@
 <template>
   <header
-    class="sticky top-0 left-0 right-0 z-30 translucent
-    bg-light-elevatedSurfaceHalf dark:bg-dark-elevatedSurfaceHalf
-    h-16 lg:h-24 transition-colors duration-300 ease-linear"
+    class="
+      sticky
+      top-0
+      left-0
+      right-0
+      z-30
+      translucent
+      bg-light-elevatedSurfaceHalf
+      dark:bg-dark-elevatedSurfaceHalf
+      h-16
+      lg:h-24
+      transition-colors
+      duration-300
+      ease-linear
+    "
     :class="{ shadow: !onTop, 'shadow-reverse': onTop }"
   >
     <div
@@ -11,12 +23,19 @@
       <!-- Logo -->
       <NuxtLink
         class="inline-block text-nuxt-gray h-7 lg:h-10 z-10 mr-auto"
-        to="/">
-        <h1 class="m-0 h-0 w-0 overflow-hidden">
-Emrin Angelov
-</h1>
+        :to="localePath('index')"
+      >
+        <h1 class="m-0 h-0 w-0 overflow-hidden">Emrin Angelov</h1>
         <SiteLogo
-          class="h-6 lg:h-8 text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors duration-300 ease-linear"
+          class="
+            h-6
+            lg:h-8
+            text-light-onSurfacePrimary
+            dark:text-dark-onSurfacePrimary
+            transition-colors
+            duration-300
+            ease-linear
+          "
         />
       </NuxtLink>
       <!-- Center Navigation -->
@@ -29,13 +48,26 @@ Emrin Angelov
           >
             <NuxtLink
               v-if="!link.href"
-              class="block font-medium uppercase hover:no-underline light:hover:text-nuxt-lightgreen dark:hover:text-nuxt-lightgreen text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors duration-300 ease-linear"
+              class="
+                block
+                font-medium
+                uppercase
+                hover:no-underline
+                light:hover:text-nuxt-lightgreen
+                dark:hover:text-nuxt-lightgreen
+                text-light-onSurfacePrimary
+                dark:text-dark-onSurfacePrimary
+                transition-colors
+                duration-300
+                ease-linear
+              "
               :to="
                 localePath({
                   name: link.slug,
                   params: { book: 'get-started', slug: 'installation' }
                 })
-              " exact
+              "
+              exact
             >
               {{ link.name }}
             </NuxtLink>
@@ -45,11 +77,30 @@ Emrin Angelov
               :href="link.href"
               target="_blank"
               rel="noopener"
-              class="block font-medium uppercase hover:no-underline hover:text-nuxt-lightgreen text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors duration-300 ease-linear"
+              class="
+                block
+                font-medium
+                uppercase
+                hover:no-underline hover:text-nuxt-lightgreen
+                text-light-onSurfacePrimary
+                dark:text-dark-onSurfacePrimary
+                transition-colors
+                duration-300
+                ease-linear
+              "
             >
               {{ link.name }}
               <span
-                class="bg-orange-500 text-white dark:text-black text-ss align-top px-1 rounded-sm lowercase"
+                class="
+                  bg-orange-500
+                  text-white
+                  dark:text-black
+                  text-ss
+                  align-top
+                  px-1
+                  rounded-sm
+                  lowercase
+                "
               >
                 new
               </span>
@@ -58,7 +109,7 @@ Emrin Angelov
         </ul>
       </nav>
       <!-- Algolia Search -->
-<!--      <AlgoliaSearch />-->
+      <!--      <AlgoliaSearch />-->
     </div>
   </header>
 </template>
@@ -68,7 +119,7 @@ import SiteLogo from '~/assets/images/emrinangelov.svg?inline'
 
 export default {
   components: {
-    SiteLogo,
+    SiteLogo
   },
   data() {
     return {

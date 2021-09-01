@@ -105,7 +105,6 @@ export default {
     'node_modules/lite-youtube-embed/src/lite-yt-embed.css'
   ],
   plugins: [
-    '~/plugins/i18n',
     '~/plugins/directives',
     '~/plugins/intersection-observer.client.js',
     '~/plugins/vue-observe-visibility.client.js',
@@ -133,17 +132,14 @@ export default {
   },
   i18n: {
     // differentDomains: true,
-    strategy: 'no_prefix',
+    // strategy: 'no_prefix',
     locales: [
       {
         code: 'en',
         iso: 'en-US',
         file: 'en-US.js',
-        name: 'English',
-        domain:
-          process.env.CONTEXT === 'development'
-            ? 'localhost:3000'
-            : 'https://emrinangelov.com'
+        name: 'English'
+        // domain: process.env.CONTEXT === 'development' ? 'localhost:3000' : 'https://emrinangelov.com'
         // domain: process.env.NODE_ENV === 'production' ? 'https://emrinangelov.com' : 'localhost:3000'
         // domain: 'https://emrinangelov.com'
       },
@@ -151,11 +147,8 @@ export default {
         code: 'fr',
         iso: 'fr-FR',
         file: 'fr-FR.js',
-        name: 'Français',
-        domain:
-          process.env.CONTEXT === 'development'
-            ? 'fr.localhost:3000'
-            : 'https://fr.emrinangelov.com'
+        name: 'Français'
+        // domain: process.env.CONTEXT === 'development' ? 'fr.localhost:3000' : 'https://fr.emrinangelov.com'
         // domain: process.env.NODE_ENV === 'production' ? 'https://fr.emrinangelov.com' : 'fr.localhost:3000'
         // domain: 'https://fr.emrinangelov.com'
       }

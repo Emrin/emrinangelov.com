@@ -1,6 +1,16 @@
 <template>
   <div
-    class="inline-block transition-colors duration-300 ease-linear bg-gray-200 rounded-full nui-select text-nuxt-gray dark:bg-dark-surface dark:text-dark-onSurfaceSecondary"
+    class="
+      inline-block
+      transition-colors
+      duration-300
+      ease-linear
+      bg-gray-200
+      rounded-full
+      nui-select
+      text-nuxt-gray
+      dark:bg-dark-surface dark:text-dark-onSurfaceSecondary
+    "
   >
     <div class="flex items-center content-center px-4">
       <div class="-mr-4">
@@ -8,7 +18,17 @@
       </div>
       <select
         :value="$i18n.locale"
-        class="z-10 h-10 pl-6 pr-8 font-medium bg-transparent appearance-none cursor-pointer focus:outline-none"
+        class="
+          z-10
+          h-10
+          pl-6
+          pr-8
+          font-medium
+          bg-transparent
+          appearance-none
+          cursor-pointer
+          focus:outline-none
+        "
         :aria-label="label"
         @change="onChange"
       >
@@ -55,7 +75,8 @@ export default {
         locale => locale.code === event.target.value
       )
 
-      window.location.href = locale.domain
+      window.location.href = this.switchLocalePath(locale.code)
+      // window.location.href = locale.domain
     },
     getLocaleDescription(locale) {
       switch (this.mode) {

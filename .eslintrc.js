@@ -9,9 +9,10 @@ module.exports = {
   rules: {
     // Only allow console log and debugger in development
     'no-debugger': process.env.PRE_COMMIT ? 'error' : 'off',
-    'no-console': process.env.PRE_COMMIT
-      ? ['error', { allow: ['warn', 'error'] }]
-      : 'off',
+    // 'no-console': process.env.PRE_COMMIT
+    //   ? ['error', { allow: ['warn', 'error'] }]
+    //   : 'off',
+    'no-console': 'off',
 
     // Prettier adds slash at end and so we need to turn this off or it will conflict
     'vue/html-self-closing': 'off',
