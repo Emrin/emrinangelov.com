@@ -133,6 +133,11 @@ module.exports = {
     }
   },
   contact: {
+    meta: {
+      title: 'Emrin Angelov - Contacter',
+      description:
+        'Contactez-moi pour des partenariats ou des offres. Vous pouvez me joindre par email, et vous pouvez trouver mon numéro de téléphone dans mon CV.'
+    },
     title: 'Détails de {contact}',
     title2: 'Contact',
     message: 'Envoyer un {message}',
@@ -149,6 +154,11 @@ module.exports = {
     }
   },
   cv: {
+    meta: {
+      title: 'Emrin Angelov - CV',
+      description:
+        'Je suis le fondateur du célèbre Aclipt. Consultez et téléchargez mon CV. Il est disponible en français et en anglais.'
+    },
     download: 'Télécharger le CV (Anglais)'
   },
   design: {
@@ -233,8 +243,9 @@ module.exports = {
   },
   sponsor: {
     meta: {
-      title: 'Sponsor',
-      description: 'Vous pouvez me soutenir via différentes méthodes.'
+      title: 'Parrainer',
+      description:
+        "Vous pouvez me parrainer via différentes méthodes. En ce moment, j'ai énuméré plusieurs clés."
     },
     title: 'Sponsor',
     description:
@@ -289,7 +300,7 @@ module.exports = {
     },
     title: 'Blog',
     description:
-      'Découvrez des articles sympas sur toutes sortes de choses intéressantes !',
+      'Découvrez des articles, des nouvelles et des poèmes écrits par Emrin Angelov.',
     nuxt_team: 'Team',
     nuxt_community: 'Community',
     contribute:

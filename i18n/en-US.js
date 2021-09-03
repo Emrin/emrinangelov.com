@@ -133,6 +133,11 @@ module.exports = {
     }
   },
   contact: {
+    meta: {
+      title: 'Emrin Angelov - Contact',
+      description:
+        'Contact me for partnerships, deals, or offers. You can reach me by email, and you can find my phone number in my CV.'
+    },
     title: '{contact} Details',
     title2: 'Contact',
     message: 'Send a {message}',
@@ -149,6 +154,11 @@ module.exports = {
     }
   },
   cv: {
+    meta: {
+      title: 'Emrin Angelov - CV',
+      description:
+        "I'm the founder of the famous Aclipt. View and download my CV. It's available in French and English."
+    },
     download: 'Download CV (English)'
   },
   design: {
@@ -237,7 +247,8 @@ module.exports = {
   sponsor: {
     meta: {
       title: 'Sponsor & Donate',
-      description: 'You can support me via different methods.'
+      description:
+        "You can support me via different methods. Right now I've listed several keys."
     },
     title: 'Sponsor & Donate',
     description:
@@ -288,7 +299,7 @@ module.exports = {
     meta: {
       title: 'Blog',
       description:
-        'Discover articles written by Emrin Angelov about all sorts of interesting topics.'
+        'Discover articles, short stories, and poems written by Emrin Angelov.'
     },
     title: 'Blogs, Poems, and Short Stories',
     description:

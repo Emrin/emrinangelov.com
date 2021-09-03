@@ -1,7 +1,14 @@
 <template>
-  <div class="bg-light-elevatedSurface dark:bg-dark-elevatedSurface shadow-nuxt relative">
+  <div
+    class="
+      bg-light-elevatedSurface
+      dark:bg-dark-elevatedSurface
+      shadow-nuxt
+      relative
+    "
+  >
     <ContactDetails />
-<!--    <ContactForm />-->
+    <!--    <ContactForm />-->
   </div>
 </template>
 
@@ -14,8 +21,8 @@ export default {
   //   }
   // },
   head() {
-    const title = this.$i18n.t('homepage.meta.title')
-    const description = this.$i18n.t('homepage.meta.description')
+    const title = this.$i18n.t('contact.meta.title')
+    const description = this.$i18n.t('contact.meta.description')
 
     return {
       title,
@@ -23,10 +30,18 @@ export default {
         { hid: 'description', name: 'description', content: description },
         // Open Graph
         { hid: 'og:title', property: 'og:title', content: title },
-        { hid: 'og:description', property: 'og:description', content: description },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description
+        },
         // Twitter Card
         { hid: 'twitter:title', name: 'twitter:title', content: title },
-        { hid: 'twitter:description', name: 'twitter:description', content: description }
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description
+        }
       ]
     }
   }
