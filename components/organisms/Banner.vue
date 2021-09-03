@@ -62,7 +62,9 @@
           <!--              />-->
           <!--            </svg>-->
           <!--          </div>-->
-          <p
+          <i18n
+            path="banner.now"
+            tag="p"
             class="
               leading-tight
               font-bold
@@ -71,10 +73,12 @@
               md:text-base md:max-w-full
             "
           >
-            Now
-            <span :style="{ color: '#00dc82' }"> available </span>
-            for jobs, contracts, and hire!
-          </p>
+            <template #available>
+              <span :style="{ color: '#00dc82' }">
+                {{ $t('banner.available') }}
+              </span>
+            </template>
+          </i18n>
           <div class="flex items-center">
             <button
               :style="{ 'white-space': 'nowrap' }"
@@ -93,7 +97,7 @@
                 rounded
               "
             >
-              Contact
+              {{ $t('banner.contact') }}
             </button>
           </div>
         </div>

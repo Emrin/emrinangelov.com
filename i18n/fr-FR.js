@@ -13,6 +13,11 @@ module.exports = {
     download: 'Téléchargement',
     live_edit: 'Éditer en ligne'
   },
+  banner: {
+    now: 'Maintenant {available} pour des contrats et des embauches!',
+    available: 'disponible',
+    contact: 'Contacter'
+  },
   header: {
     links: [
       {
@@ -96,7 +101,7 @@ module.exports = {
       craftsmanship: {
         title: 'Ingénierie',
         description:
-          "Construction. Automatisation. Améliorer. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L'importance est et sera toujours la création, la croissance et la perfection des technologies et des systèmes, et nous l'accomplirons."
+          "Construction. Automatisation. Amélioration. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L'importance sera toujours la création, la croissance et la perfection des technologies et des systèmes."
       },
       solidification: {
         title: 'Solidification',

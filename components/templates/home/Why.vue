@@ -9,7 +9,9 @@
           class="text-3xl font-medium pt-10 pb-8 text-center"
         >
           <template #together>
-            <span class="text-nuxt-lightgreen">{{ $t('homepage.why.together') }}</span>
+            <span class="text-nuxt-lightgreen">{{
+              $t('homepage.why.together')
+            }}</span>
           </template>
         </i18n>
 
@@ -23,24 +25,11 @@
             <i18n
               path="homepage.why.competence.description"
               tag="p"
-              class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
-            >
-              <template #break>
-                <br />
-              </template>
-            </i18n>
-          </div>
-          <div class="lg:w-1/3 px-4 py-8 lg:p-8 flex flex-col items-center">
-            <PerformantIllustration class="inline-block" />
-            <h4 class="uppercase font-medium text-2xl py-8">
-              {{ $t('homepage.why.support.title') }}
-            </h4>
-
-            <!-- why modular description i18n -->
-            <i18n
-              path="homepage.why.support.description"
-              tag="p"
-              class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
+              class="
+                leading-loose
+                text-light-onSurfaceSecondary
+                dark:text-dark-onSurfaceSecondary
+              "
             >
               <template #break>
                 <br />
@@ -50,6 +39,27 @@
           <div class="lg:w-1/3 px-4 py-8 lg:p-8 flex flex-col items-center">
             <EnjoyableIllustration class="inline-block" />
             <h4 class="uppercase font-medium text-2xl py-8">
+              {{ $t('homepage.why.support.title') }}
+            </h4>
+
+            <!-- why modular description i18n -->
+            <i18n
+              path="homepage.why.support.description"
+              tag="p"
+              class="
+                leading-loose
+                text-light-onSurfaceSecondary
+                dark:text-dark-onSurfaceSecondary
+              "
+            >
+              <template #break>
+                <br />
+              </template>
+            </i18n>
+          </div>
+          <div class="lg:w-1/3 px-4 py-8 lg:p-8 flex flex-col items-center">
+            <PerformantIllustration class="inline-block" />
+            <h4 class="uppercase font-medium text-2xl py-8">
               {{ $t('homepage.why.privacy.title') }}
             </h4>
 
@@ -57,24 +67,32 @@
             <i18n
               path="homepage.why.privacy.description"
               tag="p"
-              class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
+              class="
+                leading-loose
+                text-light-onSurfaceSecondary
+                dark:text-dark-onSurfaceSecondary
+              "
             >
               <template #break>
                 💚
                 <br />
               </template>
               <template #contact>
-                <NuxtLink to='contact'>{{ $t('homepage.why.privacy.contact') }}</NuxtLink>
+                <NuxtLink :to="localePath('contact')">{{
+                  $t('homepage.why.privacy.contact')
+                }}</NuxtLink>
               </template>
               <template #link>
-                <NuxtLink to='donate'>{{ $t('homepage.why.privacy.link') }}</NuxtLink>
+                <NuxtLink :to="localePath('donate')">{{
+                  $t('homepage.why.privacy.link')
+                }}</NuxtLink>
               </template>
             </i18n>
           </div>
         </div>
         <div class="text-center">
           <AppButton
-            to='contact'
+            :to="localePath('contact')"
             class="py-3 px-6 text-base"
             data-cy="why"
           >

@@ -14,6 +14,11 @@ module.exports = {
     download: 'Download',
     live_edit: 'Live Edit'
   },
+  banner: {
+    now: 'Now {available} for jobs, contracts, and hire!',
+    available: 'available',
+    contact: 'Contact'
+  },
   header: {
     links: [
       {
