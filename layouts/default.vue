@@ -41,9 +41,9 @@ export default {
   }),
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
-    const { path } = this.$route
-    const pathWithSlash = path.endsWith('/') ? path : `${path}/`
-    const canonical = `https://emrinangelov.com${pathWithSlash}`
+    // const { path } = this.$route
+    // const pathWithSlash = path.endsWith('/') ? path : `${path}/`
+    // const canonical = `https://emrinangelov.com${pathWithSlash}`
     // if (this.$i18n.locale !== 'en') {
     //   canonical = `https://${this.$i18n.locale}.emrinangelov.com${pathWithSlash}`
     // }
@@ -76,17 +76,9 @@ export default {
       ...i18nSeo,
 
       link: [
-        { rel: 'canonical', href: canonical },
-        {
-          rel: 'alternate',
-          hreflang: 'en',
-          href: `https://emrinangelov.com${pathWithSlash}`
-        },
-        {
-          rel: 'alternate',
-          hreflang: 'fr',
-          href: `https://emrinangelov.com${pathWithSlash}`
-        },
+        // { rel: 'canonical', href: canonical },
+        // { rel: 'alternate', hreflang: 'en', href: `https://emrinangelov.com${pathWithSlash}` },
+        // { rel: 'alternate', hreflang: 'fr', href: `https://emrinangelov.com${pathWithSlash}` },
         // { rel: 'alternate', hreflang: 'fr', href: `https://fr.emrinangelov.com${pathWithSlash}` },
 
         ...i18nSeo.link
