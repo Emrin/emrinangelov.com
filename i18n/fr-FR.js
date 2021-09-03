@@ -69,7 +69,7 @@ module.exports = {
           "Grâce à un travail approfondi sur un large éventail d'outils et de technologies, j'ai acquis une grande compétence dans l'artisanat du logiciel. Il existe cependant des domaines qui nécessitent un ensemble de compétences complètement différent ; dans ces cas, je vais vous expliquer exactement ce qu'il faut faire et vous présenter des contacts précieux avec la bonne expertise. Je suis l'expert sur qui vous pouvez compter."
       },
       support: {
-        title: 'Soutien',
+        title: 'Assistance',
         description:
           "Bénéficiez d'une assistance inégalée. Je m'adapterai rapidement à vos systèmes et besoins. Un accompagnement de qualité est un service extrêmement précieux. Vous bénéficierez non seulement d'un soutien technique et marketing, mais également d'un soutien en leadership et stratégies. Avancez rapidement dans la bonne direction et soyez libre de regarder vers notre prochaine étape."
       },
