@@ -34,7 +34,7 @@ module.exports = {
         name: 'Contact',
         icon: 'resources',
         slug: 'contact'
-      },
+      }
     ],
     search: {
       placeholder: 'Rechercher'
@@ -44,7 +44,7 @@ module.exports = {
     meta: {
       title: 'Emrin Angelov - Index',
       description:
-      'Créez vos projets en toute confiance avec le meilleur ingénieur et informaticien au monde. Construisez, automatisez et dirigez pour gagner.'
+        'Créez vos projets en toute confiance avec le meilleur ingénieur et informaticien au monde. Construisez, automatisez et dirigez pour gagner.'
     },
     welcome: {
       title: '{part1} et{br}Perfectionnement de {part3}',
@@ -52,11 +52,12 @@ module.exports = {
       title_part2: 'Perfectionnement',
       title_part3: 'Votre Vision',
       description:
-        'Vous cherchez la bonne personne pour construire votre projet? Vous êtes arrivé au bon endroit. Il n\'y a pas de limite à ce que nous pouvons accomplir ensemble.',
+        "Vous cherchez la bonne personne pour construire votre projet? Vous êtes arrivé au bon endroit. Il n'y a pas de limite à ce que nous pouvons accomplir ensemble.",
       get_started: 'Commencer',
       previous_work: 'Consulter CV',
-      get_updates: 'Recevez chaque mois des mises à jour et des memes dans votre boîte de réception',
-      video: 'Vidéo me mettant en scène, réalisée par moi-même.',
+      get_updates:
+        'Recevez chaque mois des mises à jour et des memes dans votre boîte de réception',
+      video: 'Vidéo me mettant en scène, réalisée par moi-même.'
     },
     why: {
       title: 'Pourquoi Travailler {together}',
@@ -65,19 +66,19 @@ module.exports = {
       competence: {
         title: 'Compétence',
         description:
-          'Grâce à un travail approfondi sur un large éventail d\'outils et de technologies, j\'ai acquis une grande compétence dans l\'artisanat du logiciel. Il existe cependant des domaines qui nécessitent des années d\'expérience ou un ensemble de compétences complètement différent ; dans ces cas, je vais vous expliquer exactement ce qu\'il faut faire et vous présenter des contacts précieux avec la bonne expertise. Je suis l\'expert sur qui vous pouvez compter.'
+          "Grâce à un travail approfondi sur un large éventail d'outils et de technologies, j'ai acquis une grande compétence dans l'artisanat du logiciel. Il existe cependant des domaines qui nécessitent un ensemble de compétences complètement différent ; dans ces cas, je vais vous expliquer exactement ce qu'il faut faire et vous présenter des contacts précieux avec la bonne expertise. Je suis l'expert sur qui vous pouvez compter."
       },
       support: {
         title: 'Soutien',
         description:
-          'Bénéficiez d\'une assistance inégalée. Je m\'adapterai à vos systèmes et besoins. Un soutien approprié est un service extrêmement précieux. Vous bénéficierez non seulement d\'un soutien technique et marketing, mais également d\'un soutien en matière de leadership. Je fais toujours tout mon possible pour faire le meilleur travail possible pour mes clients. Avancez rapidement dans la bonne direction, laissez-moi et mes contacts regarder vers le bas et dans les détails, afin que vous puissiez regarder vers le haut et vers votre prochaine étape.'
+          "Bénéficiez d'une assistance inégalée. Je m'adapterai rapidement à vos systèmes et besoins. Un accompagnement de qualité est un service extrêmement précieux. Vous bénéficierez non seulement d'un soutien technique et marketing, mais également d'un soutien en leadership et stratégies. Avancez rapidement dans la bonne direction et soyez libre de regarder vers notre prochaine étape."
       },
       privacy: {
         title: 'Confidentialité',
         description:
-          'La vie privée est d\'une importance primordiale, surtout à cette époque. Il va sans dire que je ne divulguerai aucune information qui n\'est pas destinée à être publique. Dans mon {contact}, j\'ai mis une liste de façons dont vous pouvez me contacter, et si vous avez besoin d\'une confidentialité absolue (ou d\'oignons), je vous recommande de me contacter via Protonmail. {link}',
-        contact: 'page de contact',
-        link: 'J\'accepte également les paiements cryptographiques.',
+          "La confidentialité est d'une importance primordiale, surtout en cette ère d'espionnage inégalé. Il va sans dire que je ne divulguerai aucune information qui n'est pas destinée à être publique. Dans ma {contact}, j'ai mis une liste de façons dont vous pouvez me contacter, et si vous avez besoin d'une confidentialité absolue (ou d'onions), je vous recommande de me contacter via Protonmail. {link}",
+        contact: 'page contact',
+        link: "J'accepte également les paiements cryptographiques."
       }
     },
     companies: {
@@ -85,8 +86,9 @@ module.exports = {
       dev: 'DÉVELOPPEMENT: Développement Web et mobile Cloud-Native, Full-Stack',
       ops: 'OPÉRATIONS: Intégration et développement continus, Cybersécurité, Automatisation',
       lead: 'CONSEIL EN LEADERSHIP: Évaluations, formation, conseil stratégique',
-      contact: 'Intéressé à faire partie de la société de conseil en formation? {contact} pour plus de détails.',
-      c: 'Contactez-moi',
+      contact:
+        'Intéressé à faire partie de la société de conseil en formation? {contact} pour plus de détails.',
+      c: 'Contactez-moi'
     },
     modes: {
       title: 'Ce que je {offer}',
@@ -94,18 +96,18 @@ module.exports = {
       craftsmanship: {
         title: 'Ingénierie',
         description:
-          'Construction. Automatisation. Améliorer. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d\'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L\'importance est et sera toujours la création, la croissance et la perfection des technologies, et nous le verrons faire.'
+          "Construction. Automatisation. Améliorer. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L'importance est et sera toujours la création, la croissance et la perfection des technologies et des systèmes, et nous l'accomplirons."
       },
       solidification: {
         title: 'Solidification',
         description:
-          'Automatisation. Conseil. Perfection. Une fois que vous avez un organisme en marche, il est primordial de solidifier sa stabilité, d\'optimiser ses processus de maintenance et de donner à vos dirigeants l\'état d\'esprit pour gagner. Lorsque vous êtes profondément dans votre projet, il est plus facile de manquer les détails qui provoquent des frictions internes et ralentissent vos processus; c\'est pourquoi le conseil technique et leadership peut être si bénéfique: il peut réparer et corriger les rouages internes de votre organisation de manière à vous propulser vers vos objectifs.',
+          "Automatisation. Conseil. Perfection. Une fois que vous avez un organisme en marche, il est primordial de solidifier sa stabilité, d'optimiser ses processus de maintenance et de donner à vos dirigeants l'état d'esprit pour gagner. Lorsque vous êtes profondément dans votre projet, il est plus facile de manquer les détails qui provoquent des frictions internes et ralentissent vos processus; c'est pourquoi le conseil technique et leadership peut être si bénéfique: il peut réparer et corriger les rouages internes de votre organisation de manière à vous propulser vers vos objectifs."
       }
     },
     sponsors: {
       title: 'À propos de moi',
       description:
-        'Je suis un guerrier, un architecte et un philosophe. J\'ai un grade de master en ingénierie, établie par la France. J\'ai vécu et étudié dans de nombreux pays européens et je peux parler, penser et raisonner dans plusieurs langues culturellement diverses. Chercher constamment à s\'améliorer est une seconde nature pour moi, je suis donc toujours à la chasse au savoir et à la nouveauté. Je me spécialise dans la création, l\'optimisation et le leadership. J\'aime travailler sur des projets à fort impact et avec de nombreuses pièces mobiles. Je suis convaincu que l\'apport de mon point de vue et de mon expertise sera très utile à vos organisations.',
+        "Je suis un guerrier, un architecte et un philosophe. J'ai un grade de master en ingénierie, établie par la France. J'ai vécu et étudié dans de nombreux pays européens et je peux parler et penser dans plusieurs langues culturellement diverses. Chercher constamment à s'améliorer est une seconde nature pour moi, je suis donc toujours à la chasse au savoir et à la nouveauté. Je me spécialise dans la création, l'optimisation et le leadership. J'aime travailler sur des projets à fort impact et avec de nombreuses pièces mobiles.",
       diploma: 'grade de master en ingénierie',
       become_a_sponsor: 'Contact'
     },
@@ -113,7 +115,7 @@ module.exports = {
       title: 'La Newsletter {fun}',
       title2: 'Fun',
       description:
-      'À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d\'augmenter ces chiffres de recrue.',
+        "À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d'augmenter ces chiffres de recrue.",
       form: {
         email: 'Email',
         subscribing: "S'abonner",
@@ -132,7 +134,7 @@ module.exports = {
     anon: 'Vous pouvez également utiliser ce formulaire pour envoyer rapidement un courrier anonyme.',
     a2: 'message',
     description:
-      'À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d\'augmenter ces chiffres de recrue.',
+      "À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d'augmenter ces chiffres de recrue.",
     form: {
       email: 'Courriel (facultatif)',
       message: 'Message',
@@ -142,7 +144,7 @@ module.exports = {
     }
   },
   cv: {
-    download: 'Télécharger le CV (Anglais)',
+    download: 'Télécharger le CV (Anglais)'
   },
   design: {
     meta: {
@@ -227,8 +229,7 @@ module.exports = {
   sponsor: {
     meta: {
       title: 'Sponsor',
-      description:
-        'Vous pouvez me soutenir via différentes méthodes.'
+      description: 'Vous pouvez me soutenir via différentes méthodes.'
     },
     title: 'Sponsor',
     description:
