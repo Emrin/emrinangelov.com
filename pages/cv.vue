@@ -17,7 +17,7 @@
               href="/CV.pdf"
               download=""
               variant="primary"
-              class="sm:mr-4 py-3 px-6 text-base"
+              class="sm:mr-4 py-3 px-6 text-base my-1"
               data-cy="download-cv"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
@@ -26,7 +26,7 @@
             <AppButton
               href="/CV_FR.pdf"
               variant="primary"
-              class="sm:mr-4 py-3 px-6 text-base"
+              class="sm:mr-4 py-3 px-6 text-base my-1"
               data-cy="download-cv2"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
@@ -38,17 +38,28 @@
     </div>
     <!--The CV-->
     <div class="bg-light-surface dark:bg-dark-surface">
-      <div class="container mx-auto px-4 py-12">
+      <div class="container mx-auto px-4 pt-12">
         <object
           type="application/pdf"
           :data="`/CV${
-            $i18n.locale === 'en' ? '' : '_FR'
+            tab === 'en' ? '' : '_FR'
           }.pdf#toolbar=0&navpanes=0&scrollbar=0`"
           width="100%"
           height="700px"
         ></object>
-        <!--        <embed src="/CV.pdf#toolbar=0&navpanes=0&scrollbar=0" width='100%' height='700px'></embed>-->
-        <!--        <iframe src="/CV.pdf#toolbar=0&navpanes=0&scrollbar=0" width='100%' height="666px"></iframe>-->
+      </div>
+
+      <!--Button-->
+      <div class="mx-auto text-center pb-12 pt-3">
+        <AppButton2
+          variant="secondary"
+          class="sm:mr-4 py-3 px-6 text-base"
+          data-cy="switch-cv-locale"
+          @click.native="tabSwitch"
+        >
+          <NextIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
+          {{ tab === 'en' ? $t('cv.fr') : $t('cv.en') }}
+        </AppButton2>
       </div>
     </div>
     <!--Download-->
@@ -67,7 +78,7 @@
             <AppButton
               href="/CV.pdf"
               variant="primary"
-              class="sm:mr-4 py-3 px-6 text-base"
+              class="sm:mr-4 py-3 px-6 text-base my-1"
               data-cy="download-cv2"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
@@ -76,7 +87,7 @@
             <AppButton
               href="/CV_FR.pdf"
               variant="primary"
-              class="sm:mr-4 py-3 px-6 text-base"
+              class="sm:mr-4 py-3 px-6 text-base my-1"
               data-cy="download-cv2"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
@@ -91,10 +102,17 @@
 
 <script>
 import DownloadIcon from '~/assets/icons/inbox-in.svg?inline'
+import NextIcon from '~/assets/icons/angle-double-right.svg?inline'
 
 export default {
   components: {
-    DownloadIcon
+    DownloadIcon,
+    NextIcon
+  },
+  asyncData(ctx) {
+    return {
+      tab: ctx.i18n.localeProperties.code
+    }
   },
   head() {
     const title = this.$i18n.t('cv.meta.title')
@@ -119,6 +137,12 @@ export default {
           content: description
         }
       ]
+    }
+  },
+  methods: {
+    tabSwitch() {
+      console.log('wasd')
+      this.tab === 'en' ? (this.tab = 'fr') : (this.tab = 'en')
     }
   }
 }
