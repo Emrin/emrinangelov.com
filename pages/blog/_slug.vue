@@ -3,7 +3,14 @@
     <div class="container p-4 pb-8 mx-auto lg:max-w-4xl">
       <NuxtLink
         :to="localePath({ name: 'blog' })"
-        class="inline-flex items-center dark:hover:text-nuxt-lightgreen light:hover:text-nuxt-lightgreen dark:text-dark-onSurfaceSecondary light:text-light-onSurfaceSecondary"
+        class="
+          inline-flex
+          items-center
+          dark:hover:text-nuxt-lightgreen
+          light:hover:text-nuxt-lightgreen
+          dark:text-dark-onSurfaceSecondary
+          light:text-light-onSurfaceSecondary
+        "
       >
         <ArrowLeftIcon class="h-5 mr-2" />back to blog list
       </NuxtLink>
@@ -25,20 +32,13 @@ export default {
     ArrowLeftIcon
   },
   mixins: [copyCodeBlock],
-  middleware ({ params, redirect }) {
+  middleware({ params, redirect }) {
     if (params.slug === 'index') {
       redirect('/')
     }
   },
   scrollToTop: true,
-  async asyncData ({
-    $content,
-    store,
-    app,
-    params,
-    error,
-    router
-  }) {
+  async asyncData({ $content, store, app, params, error, router }) {
     const { slug } = params
     let path = `/${app.i18n.defaultLocale}/blog`
     let post, prev, next
@@ -64,7 +64,7 @@ export default {
         .sortBy('date', 'desc')
         .surround(slug, { before: 1, after: 1 })
         .fetch()
-    } catch (e) { }
+    } catch (e) {}
 
     return {
       post,
@@ -75,43 +75,64 @@ export default {
     }
   },
 
-  head () {
+  head() {
     return {
       title: this.post.title,
       titleTemplate: '%s - Emrin Angelov',
       meta: [
-        { hid: 'description', name: 'description', content: this.post.description },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.post.description
+        },
         // Open Graph
         { hid: 'og:title', property: 'og:title', content: this.post.title },
-        { hid: 'og:description', property: 'og:description', content: this.post.description },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.post.description
+        },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'og:url', property: 'og:url', content: `https://nuxtjs.org/blog/${this.post.slug}` },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `https://emrinangelov.com/blog/${this.post.slug}`
+        },
         { hid: 'og:image', property: 'og:image', content: this.socialImage },
         // Twitter Card
-        { hid: 'twitter:title', name: 'twitter:title', content: this.post.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: this.post.description },
-        { hid: 'twitter:image', name: 'twitter:image', content: this.socialImage },
-        { hid: 'twitter:image:', name: 'twitter:image:alt', content: this.post.imgUrl ? 'Blog post image' : 'NuxtJS' }
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.post.title
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.post.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.socialImage
+        },
+        {
+          hid: 'twitter:image:',
+          name: 'twitter:image:alt',
+          content: this.post.imgUrl ? 'Blog post image' : 'Emrin Angelov'
+        }
       ]
     }
   },
   computed: {
-    docLink () {
-      return `https://github.com/nuxt/nuxtjs.org/blob/main/content${this.path}/${this.slug}.md`
-    },
     ...mapState({
       host: state => state.host,
       isDev: state => state.isDev,
       isTest: state => state.isTest,
       isProd: state => state.isProd
     }),
-    socialImage () {
-      const image = this.post.imgUrl ? this.post.imgUrl : 'nuxt-card.png'
-      if (this.isTest || this.isDev) {
-        return `${this.host}/${image}`
-      } else {
-        return `https://res.cloudinary.com/nuxt/image/upload/w_1200,h_628,c_fill,f_auto/remote/nuxt-org/${this.post.imgUrl}`
-      }
+    socialImage() {
+      const image = this.post.imgUrl ? this.post.imgUrl : 'card.png'
+      return `${this.host}/${image}`
     }
   }
 }

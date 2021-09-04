@@ -4,10 +4,6 @@ export default {
   target: 'static',
   ssr: true,
   head: {
-    htmlAttrs: {
-      lang: process.env.NUXT_LOCALE,
-      dir: ['fa', 'ar', 'he'].includes(process.env.NUXT_LOCALE) ? 'rtl' : 'ltr'
-    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
