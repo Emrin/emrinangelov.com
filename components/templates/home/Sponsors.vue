@@ -1,39 +1,85 @@
 <template>
-  <div class="transition-colors duration-300 ease-linear bg-light-elevatedSurface dark:bg-dark-elevatedSurface shadow-nuxt">
+  <div
+    class="
+      transition-colors
+      duration-300
+      ease-linear
+      bg-light-elevatedSurface
+      dark:bg-dark-elevatedSurface
+      shadow-nuxt
+    "
+  >
     <div class="container px-4 py-12 mx-auto text-centshadow-nuxter">
       <section class="px-4">
         <h1 class="mb-2 text-3xl font-medium uppercase sm:mb-0">
           {{ $t('homepage.sponsors.title') }}
         </h1>
-        <SponsoringIllustration id="sponsor-img" class="inline-block float-right lg:ml-4" style='width:300px;' />
-        <div class="pt-6 pb-12 leading-loose text-left transition-colors duration-300 ease-linear text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary">
-          <i18n path='homepage.sponsors.description'>
+        <!--        <SponsoringIllustration id="sponsor-img" class="hidden inline-block float-right lg:ml-4" style='width:300px;' />-->
+        <ClientOnly>
+          <img
+            src="/icon.png"
+            alt="Emrin Angelov"
+            class="
+              inline-block
+              float-right
+              lg:ml-4
+              rounded-full
+              w-full
+              sm:w-1/2
+              md:1/3
+              lg:w-1/4
+            "
+            loading="lazy"
+          />
+        </ClientOnly>
+        <div
+          class="
+            pt-6
+            pb-12
+            leading-loose
+            text-left
+            transition-colors
+            duration-300
+            ease-linear
+            text-light-onSurfaceSecondary
+            dark:text-dark-onSurfaceSecondary
+          "
+        >
+          <i18n path="homepage.sponsors.description">
             <template #break>
               <br />
             </template>
             <template #diploma>
-              <span><a href='/diplome.pdf' download=''>{{ $t('homepage.sponsors.diploma') }}</a></span>
+              <span
+                ><a href="/diplome.pdf" download="">{{
+                  $t('homepage.sponsors.diploma')
+                }}</a></span
+              >
             </template>
           </i18n>
         </div>
 
-<!--        <div v-for="(group, groupKey) in sponsors" :key="groupKey" class="pb-8 text-center">-->
-<!--          <h2 class="pb-8 font-medium uppercase transition-colors duration-300 ease-linear text text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary">-->
-<!--            <span class="pb-2 border-b-2 border-nuxt-lightgreen">-->
-<!--              {{ groupKey }}-->
-<!--            </span>-->
-<!--          </h2>-->
-<!--          <a v-for="(sponsor, i) in group" :key="i" class="inline-block m-4 sponsor"-->
-<!--            :href="`${sponsor.url}?ref=nuxt`" target="_blank" rel="noopener sponsored">-->
-<!--            <ClientOnly>-->
-<!--              <img :src="`/img/sponsors/${$colorMode.value}/${sponsor.img}`" :alt="sponsor.name"-->
-<!--                class="inline-block" :class="sponsor.class" loading="lazy" />-->
-<!--            </ClientOnly>-->
-<!--          </a>-->
-<!--        </div>-->
+        <!--        <div v-for="(group, groupKey) in sponsors" :key="groupKey" class="pb-8 text-center">-->
+        <!--          <h2 class="pb-8 font-medium uppercase transition-colors duration-300 ease-linear text text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary">-->
+        <!--            <span class="pb-2 border-b-2 border-nuxt-lightgreen">-->
+        <!--              {{ groupKey }}-->
+        <!--            </span>-->
+        <!--          </h2>-->
+        <!--          <a v-for="(sponsor, i) in group" :key="i" class="inline-block m-4 sponsor"-->
+        <!--            :href="`${sponsor.url}?ref=nuxt`" target="_blank" rel="noopener sponsored">-->
+        <!--            <ClientOnly>-->
+        <!--              <img :src="`/img/sponsors/${$colorMode.value}/${sponsor.img}`" :alt="sponsor.name"-->
+        <!--                class="inline-block" :class="sponsor.class" loading="lazy" />-->
+        <!--            </ClientOnly>-->
+        <!--          </a>-->
+        <!--        </div>-->
 
         <div class="text-center">
-          <AppButton :to="localePath({ name: 'contact' })" data-cy="sponsors" class="px-6 py-3 text-base">
+          <AppButton
+            :to="localePath({ name: 'contact' })"
+            data-cy="sponsors"
+            class="px-6 py-3 text-base"
+          >
             <GithubIcon slot="icon" class="inline-block h-5 mr-1 -mt-1" />
             {{ $t('homepage.sponsors.become_a_sponsor') }}
           </AppButton>
@@ -44,14 +90,14 @@
 </template>
 
 <script>
-import GithubIcon from '~/assets/icons/github.svg?inline'
-import SponsoringIllustration from '~/assets/illustrations/about.svg?inline'
+import GithubIcon from '~/assets/icons/meteor.svg?inline'
+// import SponsoringIllustration from '~/assets/illustrations/about.svg?inline'
 import sponsors from '~/content/sponsors'
 
 export default {
   components: {
-    GithubIcon,
-    SponsoringIllustration
+    GithubIcon
+    // SponsoringIllustration
   },
   data() {
     return {

@@ -114,7 +114,7 @@ module.exports = {
       description:
         "I am a warrior, an architect, and a philosopher. I have a {diploma}, established by France. I have lived and studied in numerous European countries and can speak and think in several culturally diverse languages. Constantly seeking to improve is a second nature for me, so I'm always on the hunt for knowledge and novelty. I specialize in creation, optimization, and leadership and I enjoy working on high-impact projects with many moving parts.",
       diploma: "Master's Degree in Engineering",
-      become_a_sponsor: 'Contact'
+      become_a_sponsor: "Let's Get in Touch"
     },
     newsletter: {
       title: 'The {fun} Newsletter',

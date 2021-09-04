@@ -112,9 +112,9 @@ module.exports = {
     sponsors: {
       title: 'À propos de moi',
       description:
-        "Je suis un guerrier, un architecte et un philosophe. J'ai un grade de master en ingénierie, établie par la France. J'ai vécu et étudié dans de nombreux pays européens et je peux parler et penser dans plusieurs langues culturellement diverses. Chercher constamment à s'améliorer est une seconde nature pour moi, je suis donc toujours à la chasse au savoir et à la nouveauté. Je me spécialise dans la création, l'optimisation et le leadership. J'aime travailler sur des projets à fort impact et avec de nombreuses pièces mobiles.",
+        "Je suis un guerrier, un architecte et un philosophe. J'ai un {diploma} établie par la France. J'ai vécu et étudié dans de nombreux pays européens et je peux parler et penser dans plusieurs langues culturellement diverses. Chercher constamment à s'améliorer est une seconde nature pour moi, je suis donc toujours à la chasse au savoir et à la nouveauté. Je me spécialise dans la création, l'optimisation et le leadership. J'aime travailler sur des projets à fort impact et avec de nombreuses pièces mobiles.",
       diploma: 'grade de master en ingénierie',
-      become_a_sponsor: 'Contact'
+      become_a_sponsor: 'Entrons en contact'
     },
     newsletter: {
       title: 'La Newsletter {fun}',
