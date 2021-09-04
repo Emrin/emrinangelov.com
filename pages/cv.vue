@@ -23,6 +23,15 @@
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download') }}
             </AppButton>
+            <AppButton
+              href="/CV_FR.pdf"
+              variant="primary"
+              class="sm:mr-4 py-3 px-6 text-base"
+              data-cy="download-cv2"
+            >
+              <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
+              {{ $t('cv.download_fr') }}
+            </AppButton>
           </div>
         </div>
       </div>
@@ -32,7 +41,9 @@
       <div class="container mx-auto px-4 py-12">
         <object
           type="application/pdf"
-          data="/CV.pdf#toolbar=0&navpanes=0&scrollbar=0"
+          :data="`/CV${
+            $i18n.locale === 'en' ? '' : '_FR'
+          }.pdf#toolbar=0&navpanes=0&scrollbar=0`"
           width="100%"
           height="700px"
         ></object>
@@ -61,6 +72,15 @@
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download') }}
+            </AppButton>
+            <AppButton
+              href="/CV_FR.pdf"
+              variant="primary"
+              class="sm:mr-4 py-3 px-6 text-base"
+              data-cy="download-cv2"
+            >
+              <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
+              {{ $t('cv.download_fr') }}
             </AppButton>
           </div>
         </div>

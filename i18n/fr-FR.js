@@ -159,7 +159,10 @@ module.exports = {
       description:
         'Je suis le fondateur du célèbre Aclipt. Consultez et téléchargez mon CV. Il est disponible en français et en anglais.'
     },
-    download: 'Télécharger le CV (Anglais)'
+    download: 'Télécharger le CV (Anglais)',
+    download_fr: 'Télécharger le CV (Français)',
+    en: 'Anglais',
+    fr: 'Français'
   },
   design: {
     meta: {
