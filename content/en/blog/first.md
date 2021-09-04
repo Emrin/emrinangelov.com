@@ -1,6 +1,6 @@
 ---
-title: A Baseline
-description: How would you like to read a mediocre blog? Well I've got you covered.
+title: Baseline
+description: This is an example so that the page doesn't give a 'no blogs found UwU' error.
 imgUrl: blog/first/gandalf.gif
 date: 2021-08-21
 authors:
@@ -15,19 +15,20 @@ tags:
 
 ## Example TOC
 
-- [Example](#example-toc)
+- [Example TOC](#example-toc)
+- [Example text](#example-text)
 - [Example image](#example-image)
 - [Example codeblock](#example-codeblock)
 - [Example code](#example-code)
 - [Base Alerts](#base-alerts)
 - [Example video](#example-video)
 
-## Example
+## Example text
 
 I use this blog as a baseline for my future blogs.
 
 Once upon a time, there was a wise man. He was eager to learn.\
-Throughout his entire life, he always searched for the meaning of life.\
+Throughout his entire life, he always searched for meaning.\
 He wondered if he had any free will, or if the timeline of his life was
 already well-defined, from one end to another.\
 To study a physical phenomenon, we often need to know two things, he though: \
@@ -39,7 +40,7 @@ Unless if you're playing against a fast computer, then it's less fun.
 
 ## Example image
 
-Images are stored in the static folder under blog and in a folder with the filename.
+Store images in static/blog and in a folder with the filename.
 
 ![My image alt tag](/blog/first/gandalf.gif)
 

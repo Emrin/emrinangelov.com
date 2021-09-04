@@ -39,7 +39,7 @@
         />
       </NuxtLink>
       <!-- Center Navigation -->
-      <nav class="hidden lg:flex lg:pt-1 xl:pt-0 mx-auto">
+      <nav class="hidden lg:flex lg:pt-1 xl:pt-0 mx-auto lg:ml-auto lg:mr-0">
         <ul class="flex text-center">
           <li
             v-for="link in $t('header.links')"
@@ -108,18 +108,29 @@
           </li>
         </ul>
       </nav>
-      <!-- Algolia Search -->
-      <!--      <AlgoliaSearch />-->
+      <DarkModeToggle class="hidden lg:flex mx-3" />
+      <AppLangSelect
+        :value="$i18n.locale"
+        :options="$i18n.locales"
+        label="Select language"
+        class="hidden lg:flex ml-3"
+      >
+        <template #icon>
+          <GlobeIcon />
+        </template>
+      </AppLangSelect>
     </div>
   </header>
 </template>
 
 <script>
 import SiteLogo from '~/assets/images/emrinangelov.svg?inline'
+import GlobeIcon from '~/assets/icons/globe.svg?inline'
 
 export default {
   components: {
-    SiteLogo
+    SiteLogo,
+    GlobeIcon
   },
   data() {
     return {

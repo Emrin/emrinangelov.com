@@ -141,7 +141,6 @@ export default {
   },
   methods: {
     tabSwitch() {
-      console.log('wasd')
       this.tab === 'en' ? (this.tab = 'fr') : (this.tab = 'en')
     }
   }
