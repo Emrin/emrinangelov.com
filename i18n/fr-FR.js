@@ -88,11 +88,11 @@ module.exports = {
     },
     companies: {
       title: "Une liste inclusive d'{expertise}",
-      dev: 'DÉVELOPPEMENT: Développement Web et mobile Cloud-Native, Full-Stack',
-      ops: 'OPÉRATIONS: Intégration et développement continus, Cybersécurité, Automatisation',
-      lead: 'CONSEIL EN LEADERSHIP: Évaluations, formation, conseil stratégique',
+      dev: 'DÉVELOPPEMENT: Développement Cloud-Natif et Full-Stack de Technologies Web et Mobiles',
+      ops: 'OPÉRATIONS: Intégration et Développement Continus, Cybersécurité, Automatisation',
+      lead: 'CONSEIL EN LEADERSHIP: Évaluations, Formation, Conseil Stratégique',
       contact:
-        'Intéressé à faire partie de la société de conseil en formation? {contact} pour plus de détails.',
+        'Intéressé(e) à faire partie de la société de conseil en leadership en cours de formation? {contact} pour plus de détails.',
       c: 'Contactez-moi'
     },
     modes: {
@@ -101,7 +101,7 @@ module.exports = {
       craftsmanship: {
         title: 'Ingénierie',
         description:
-          "Construction. Automatisation. Amélioration. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L'importance sera toujours la création, la croissance et la perfection des technologies et des systèmes."
+          "Construction. Modification. Amélioration. Ingénierie signifie utiliser toutes mes compétences pour accomplir quelque chose de beau, de performant et d'efficace. Ensemble, nous pouvons transformer les idées en réalité et avoir un impact profond sur les environnements. L'importance sera toujours la création, la croissance et la perfection des technologies et des systèmes."
       },
       solidification: {
         title: 'Solidification',

@@ -101,7 +101,7 @@ module.exports = {
       craftsmanship: {
         title: 'Craftsmanship',
         description:
-          'Building. Automating. Improving. Craftsmanship means utilizing my full skillset to accomplish something beautiful, performant, and effective. Together we can shape ideas into reality, and deeply impact environments. The importance is and always will be the creation, the growth, and the perfection of technologies and systems, and we will see it done.'
+          'Building. Altering. Improving. Craftsmanship means utilizing my full skillset to accomplish something beautiful, performant, and effective. Together we can shape ideas into reality, and deeply impact environments. The importance is and always will be the creation, the growth, and the perfection of technologies and systems, and we will see it done.'
       },
       solidification: {
         title: 'Solidification',
