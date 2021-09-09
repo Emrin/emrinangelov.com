@@ -47,10 +47,28 @@
             </li>
             <li>
               LinkedIn:
-              <a href="https://www.linkedin.com/in/emrin-angelov/"
+              <a
+                href="https://www.linkedin.com/in/emrin-angelov/"
+                target="_blank"
+                rel="noopener noreferrer"
                 >linkedin.com/in/emrin-angelov</a
               >
             </li>
+            <i18n path="contact.phone" tag="li">
+              <template #cv>
+                <NuxtLink :to="localePath('cv')">{{
+                  $t('contact.cv')
+                }}</NuxtLink>
+              </template>
+              <template #signal>
+                <a
+                  href="https://signal.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >{{ $t('contact.signal') }}</a
+                >
+              </template>
+            </i18n>
             <!--            <li>Twitter: <a href='https://twitter.com/cyberlypse'>Cyberlypse</a></li>-->
           </ul>
         </div>
