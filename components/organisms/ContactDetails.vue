@@ -7,8 +7,8 @@
       relative
     "
   >
-    <div class="container mx-auto text-center px-4 py-4 sm:p-0">
-      <section>
+    <div class="container mx-auto px-4 py-4 lg:py-6">
+      <section class="text-center rounded-t-lg lg:mx-0">
         <i18n
           path="contact.title"
           tag="h1"
@@ -29,6 +29,9 @@
         <div
           class="
             mx-auto
+            -mt-3
+            lg:-mt-2
+            mb-3
             text-light-onSurfaceSecondary
             dark:text-dark-onSurfaceSecondary
           "
@@ -56,18 +59,6 @@
           class="hidden inline-block lg:ml-4"
           style="width: 300px"
         />
-        <p
-          class="
-            py-3
-            transition-colors
-            duration-300
-            ease-linear
-            text-light-onSurfaceSecondary
-            dark:text-dark-onSurfaceSecondary
-          "
-        >
-          <!--          Follow me and stuff!-->
-        </p>
       </section>
     </div>
   </div>
