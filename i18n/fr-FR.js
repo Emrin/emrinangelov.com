@@ -141,16 +141,17 @@ module.exports = {
     title: 'Détails de {contact}',
     title2: 'Contact',
     message: 'Envoyer un {message}',
-    anon: 'Vous pouvez également utiliser ce formulaire pour envoyer rapidement un courrier anonyme.',
     a2: 'message',
+    anon: 'Vous pouvez utiliser ce formulaire pour envoyer un e-mail anonyme.{break}Les messages sont traités via AWS Frankfurt et envoyés à mon Protonmail (centres de données suisses).',
     description:
       "À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d'augmenter ces chiffres de recrue.",
     form: {
       email: 'Courriel (facultatif)',
+      subject: 'Sujet (facultatif)',
       message: 'Message',
       sending: 'Envoi en cours...',
       send: 'Envoyer',
-      sent: 'Message envoyé !'
+      sent: 'Message envoyé ! 🥂'
     }
   },
   cv: {

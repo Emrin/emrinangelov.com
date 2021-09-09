@@ -8,18 +8,12 @@
     "
   >
     <ContactDetails />
-    <!--    <ContactForm />-->
+    <ContactForm />
   </div>
 </template>
 
 <script>
 export default {
-  // nuxtI18n: {
-  //   paths: {
-  //     en: '/contact',
-  //     fr: '/contacter',
-  //   }
-  // },
   head() {
     const title = this.$i18n.t('contact.meta.title')
     const description = this.$i18n.t('contact.meta.description')
