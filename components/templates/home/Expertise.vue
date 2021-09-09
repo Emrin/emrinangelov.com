@@ -161,11 +161,17 @@ export default {
               url: 'https://www.docker.com/',
               class: 'h-10'
             },
+            // {
+            //   name: 'GitLab',
+            //   img: 'gitlab.svg',
+            //   url: 'https://about.gitlab.com/',
+            //   class: 'h-16'
+            // },
             {
-              name: 'GitLab',
-              img: 'gitlab.svg',
-              url: 'https://about.gitlab.com/',
-              class: 'h-16'
+              name: 'Amazon Web Services',
+              img: 'aws.png',
+              url: 'https://aws.amazon.com/',
+              class: 'h-12'
             }
           ]
         },
