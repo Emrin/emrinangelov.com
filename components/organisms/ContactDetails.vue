@@ -1,6 +1,13 @@
 <template>
-  <div class="container mx-auto px-4">
-    <div class="w-full text-center py-4 sm:p-0">
+  <div
+    class="
+      bg-light-elevatedSurface
+      dark:bg-dark-elevatedSurface
+      shadow-nuxt
+      relative
+    "
+  >
+    <div class="container mx-auto text-center px-4 py-4 sm:p-0">
       <section>
         <i18n
           path="contact.title"
@@ -35,7 +42,6 @@
               Gmail:
               <a href="mailto:emrinangelov@gmail.com">emrinangelov@gmail.com</a>
             </li>
-            <!--            <li>Protonmail: <a href='mailto:cyberlypse@protonmail.com'>cyberlypse@protonmail.com</a></li>-->
             <li>
               LinkedIn:
               <a href="https://www.linkedin.com/in/emrin-angelov/"

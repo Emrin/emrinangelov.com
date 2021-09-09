@@ -1,12 +1,5 @@
 <template>
-  <div
-    class="
-      bg-light-elevatedSurface
-      dark:bg-dark-elevatedSurface
-      shadow-nuxt
-      relative
-    "
-  >
+  <div>
     <ContactDetails />
     <ContactForm />
   </div>
