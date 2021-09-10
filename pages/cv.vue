@@ -25,9 +25,10 @@
             </AppButton>
             <AppButton
               href="/CV_FR.pdf"
+              download=""
               variant="primary"
               class="sm:mr-4 py-3 px-6 text-base my-1"
-              data-cy="download-cv2"
+              data-cy="download-cv-fr"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download_fr') }}
@@ -77,6 +78,7 @@
           <div class="w-full text-center py-4 sm:p-0">
             <AppButton
               href="/CV.pdf"
+              download=""
               variant="primary"
               class="sm:mr-4 py-3 px-6 text-base my-1"
               data-cy="download-cv2"
@@ -86,9 +88,10 @@
             </AppButton>
             <AppButton
               href="/CV_FR.pdf"
+              download=""
               variant="primary"
               class="sm:mr-4 py-3 px-6 text-base my-1"
-              data-cy="download-cv2"
+              data-cy="download-cv2-fr"
             >
               <DownloadIcon slot="icon" class="inline-block h-6 -mt-1 mr-1" />
               {{ $t('cv.download_fr') }}
