@@ -255,8 +255,6 @@ module.exports = {
         "Vous pouvez me parrainer via différentes méthodes. En ce moment, j'ai énuméré plusieurs clés."
     },
     title: 'Sponsor',
-    description:
-      'BTC: 3LYu69HdChTW4xEScBdVUbf2HrknLFA1FX{break}Ethereum: 0x84cb10f7a997eefc7a16eb6c2f84f81b5243b33c{break}Monero: 834wWuKWuBjjHu2roitmEeGLDWUqEKk9HDezaxs9ykXsSxjgbZpUR5M1MF6D7y2b3hC57BHeBouS9i6JKBwTfPy467EFWYS{break}Nano: nano_3fc87qsxgratp9f8151i7hx1o6agomadcm7dgktcnqcx9p3yxaskj5h7n78o{break}Doge: DEQavxTeQpqgpt59GxfZMEfHbmQKmktFnB',
     donations: {
       title: 'Dons uniques',
       description: 'Nous acceptons les dons via ces canaux'

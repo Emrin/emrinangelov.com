@@ -121,7 +121,7 @@
                 py-3
                 font-medium
                 border
-                rounded rounded-r-none
+                rounded
                 outline-none
                 bg-light-elevatedSurface
                 text-light-onSurfacePrimary
