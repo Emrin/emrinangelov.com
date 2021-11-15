@@ -66,7 +66,10 @@ export default {
     // https://github.com/Atinux/nuxt-tailwindcss/
     '@nuxtjs/tailwindcss',
     // https://pwa.nuxtjs.org
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/composition-api/module',
+    '@nuxtjs/recaptcha'
+    // process.env.RECAPTCHA_SITE_KEY ? '@nuxtjs/recaptcha' : undefined
   ],
   modules: ['@nuxt/http', '@nuxt/content', 'nuxt-i18n', 'vue-scrollto/nuxt'],
   pwa: {
@@ -84,7 +87,8 @@ export default {
     '~/components/organisms'
   ],
   colorMode: {
-    preference: 'light' // disable system
+    preference: 'system',
+    fallback: 'light'
   },
   plausible: {
     domain: 'emrinangelov.com'
@@ -115,9 +119,14 @@ export default {
     NUXT_API: process.env.NUXT_API || 'https://api.emrinangelov.com'
   },
   publicRuntimeConfig: {
+    recaptcha: {
+      version: 3,
+      // siteKey: process.env.RECAPTCHA_SITE_KEY
+      siteKey: '6LfcxzcdAAAAAFixPhwVpbQoD0o0EfGX0iGvs4b_'
+    },
     nuxtLocale: process.env.NUXT_LOCALE || 'en',
     nuxtVersion: '4.0.4',
-    nuxtStars: '42K+'
+    nuxtStars: '42'
   },
   loading: { color: '#379bea' },
   generate: {
