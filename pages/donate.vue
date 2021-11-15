@@ -28,16 +28,20 @@
               dark:text-dark-onSurfaceSecondary
             "
           >
+            <span class="text-nuxt-lightgreen">PayPal:</span>
+            <a href="https://www.paypal.me/cyberlypse" target="_blank"
+              >paypal.me/cyberlypse</a
+            ><br />
             <span class="text-nuxt-lightgreen">BTC:</span>
             3LYu69HdChTW4xEScBdVUbf2HrknLFA1FX<br />
             <span class="text-nuxt-lightgreen">Ethereum:</span>
             0x84cb10f7a997eefc7a16eb6c2f84f81b5243b33c<br />
-            <span class="text-nuxt-lightgreen">Monero:</span>
-            834wWuKWuBjjHu2roitmEeGLDWUqEKk9HDezaxs9ykXsSxjgbZpUR5M1MF6D7y2b3hC57BHeBouS9i6JKBwTfPy467EFWYS<br />
-            <span class="text-nuxt-lightgreen">Nano:</span>
-            nano_3fc87qsxgratp9f8151i7hx1o6agomadcm7dgktcnqcx9p3yxaskj5h7n78o<br />
             <span class="text-nuxt-lightgreen">Doge:</span>
             DEQavxTeQpqgpt59GxfZMEfHbmQKmktFnB<br />
+            <span class="text-nuxt-lightgreen">Nano:</span>
+            nano_3fc87qsxgratp9f8151i7hx1o6agomadcm7dgktcnqcx9p3yxaskj5h7n78o<br />
+            <span class="text-nuxt-lightgreen">Monero:</span>
+            834wWuKWuBjjHu2roitmEeGLDWUqEKk9HDezaxs9ykXsSxjgbZpUR5M1MF6D7y2b3hC57BHeBouS9i6JKBwTfPy467EFWYS<br />
           </p>
         </div>
         <SponsorIllustration
