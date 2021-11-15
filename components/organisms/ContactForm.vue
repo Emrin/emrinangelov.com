@@ -187,6 +187,17 @@ export default {
       error: null
     }
   },
+  async mounted() {
+    try {
+      await this.$recaptcha.init()
+    } catch (e) {
+      console.error(e)
+      this.error = 'ReCaptcha Error. Refresh the page and try again.'
+    }
+  },
+  beforeDestroy() {
+    this.$recaptcha.destroy()
+  },
   methods: {
     async send_form() {
       if (!this.message.trim()) {
@@ -195,20 +206,22 @@ export default {
       this.error = null
       this.pending = true
       try {
+        const token = await this.$recaptcha.execute('submit')
         await new Promise(resolve => setTimeout(resolve, 400))
         await this.$http.$post(
           'https://h9s5036w93.execute-api.eu-central-1.amazonaws.com/default/fun1',
           {
             email: this.email,
             subject: this.subject,
-            message: this.message
+            message: this.message,
+            token
           }
         )
         this.sent = true
         this.pending = false
       } catch (err) {
         this.pending = false
-        this.error = 'Error.'
+        this.error = 'Error. Refresh the page and try again.'
       }
     }
   }
