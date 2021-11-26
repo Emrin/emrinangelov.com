@@ -50,7 +50,7 @@ module.exports = {
     meta: {
       title: 'Emrin Angelov - Engineering Anything',
       description:
-        "Create anything with confidence together with the world's leading engineer and computer scientist. Build, automate, and lead to win."
+        'Create anything with confidence together with a great lead engineer and computer scientist. Build, automate, and lead to win.'
     },
     welcome: {
       title: '{part1} and{br}Perfecting {part3}',

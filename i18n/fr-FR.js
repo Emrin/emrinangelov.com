@@ -49,7 +49,7 @@ module.exports = {
     meta: {
       title: 'Emrin Angelov - Index',
       description:
-        'Créez vos projets en toute confiance avec le meilleur ingénieur et informaticien au monde. Construisez, automatisez et dirigez pour gagner.'
+        'Créez vos projets en toute confiance avec un grand ingénieur directeur et informaticien. Construisez, automatisez et dirigez pour gagner.'
     },
     welcome: {
       title: '{part1} et{br}Perfectionnement de {part3}',

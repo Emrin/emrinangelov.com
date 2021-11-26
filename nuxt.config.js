@@ -84,7 +84,8 @@ export default {
     '~/components/global',
     '~/components/atoms',
     '~/components/molecules',
-    '~/components/organisms'
+    '~/components/organisms',
+    '~/components/animations'
   ],
   colorMode: {
     preference: 'system',
@@ -122,7 +123,10 @@ export default {
     recaptcha: {
       version: 3,
       // siteKey: process.env.RECAPTCHA_SITE_KEY
-      siteKey: '6LfcxzcdAAAAAFixPhwVpbQoD0o0EfGX0iGvs4b_'
+      siteKey:
+        process.env.NODE_ENV === 'production'
+          ? '6LfcxzcdAAAAAFixPhwVpbQoD0o0EfGX0iGvs4b_'
+          : '6LftpTodAAAAAGFn1YlGZDB4M1HAeIDvSCwxv9dn'
     },
     nuxtLocale: process.env.NUXT_LOCALE || 'en',
     nuxtVersion: '4.0.4',

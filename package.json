@@ -22,7 +22,8 @@
     "start": "nuxt start",
     "test:e2e:dev": "start-server-and-test dev http://localhost:3000 cy:open",
     "test:e2e:run": "cypress install && start-server-and-test start http://localhost:3000 cy:run",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev:lan": "nuxt --hostname '0.0.0.0' --port 3000"
   },
   "lint-staged": {
     "*.{js,json,css,vue,md}": "prettier --write",
@@ -95,6 +96,6 @@
     "@nuxtjs/recaptcha": "^1.0.4",
     "lite-youtube-embed": "^0.2.0",
     "lottie-web": "^5.7.14",
-    "three": "^0.134.0"
+    "three": "^0.135.0"
   }
 }
