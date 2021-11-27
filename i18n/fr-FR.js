@@ -145,7 +145,7 @@ module.exports = {
     signal: 'Signal',
     message: 'Envoyer un {message}',
     a2: 'message',
-    anon: 'Vous pouvez utiliser ce formulaire pour envoyer un e-mail anonyme.{break}Les messages sont traités via AWS Frankfurt et envoyés à mon Protonmail (centres de données suisses).',
+    anon: 'Vous pouvez utiliser ce formulaire pour envoyer un e-mail anonyme.{break}Les messages sont traités via {server} et envoyés à mon Protonmail (centres de données suisses).',
     description:
       "À quelle fréquence recevez-vous des poèmes, des mèmes et des guides sympas dans votre boîte de réception? Il est temps d'augmenter ces chiffres de recrue.",
     form: {

@@ -89,7 +89,7 @@ module.exports = {
     companies: {
       title: 'An inclusive list of {expertise}',
       dev: 'DEVELOPMENT: Cloud-Native, Full-Stack Web and Mobile Development',
-      ops: 'OPERATIONS: Continuous Integration and Development, Cybersecurity, Automatisation',
+      ops: 'OPERATIONS: Continuous Integration and Development, Cybersecurity, Automation',
       lead: 'LEADERSHIP CONSULTING: Assessments, Training, Strategic Advising',
       contact:
         'Interested in being part of the currently forming consulting company? {contact} for details.',
@@ -145,7 +145,7 @@ module.exports = {
     signal: 'Signal App',
     message: 'Send a {message}',
     a2: 'message',
-    anon: 'You can use this form to quickly send an anonymous email.{break}The messages are processed via AWS Frankfurt and sent to my Protonmail (Swiss Datacenters).',
+    anon: 'You can use this form to quickly send an anonymous email.{break}The messages are processed via {server} and sent to my Protonmail (Swiss Datacenters).',
     description:
       'How often do you receive poems, memes, and cool guides in your inbox? Time to up those rookie numbers.',
     form: {

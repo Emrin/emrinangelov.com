@@ -41,6 +41,14 @@
           <template #break>
             <br />
           </template>
+          <template #server>
+            <a
+              href="https://github.com/Emrin/aws-lambda-ses-recaptcha"
+              target="_blank"
+              rel="noopener noreferrer"
+              >AWS Frankfurt</a
+            >
+          </template>
         </i18n>
 
         <form
