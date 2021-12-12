@@ -3,32 +3,14 @@
     <Banner />
     <TheHeader />
     <main
-      class="
-        lg:block
-        relative
-        bg-light-elevatedSurface
-        dark:bg-dark-elevatedSurface
-        transition-colors
-        duration-300
-        ease-linear
-      "
+      class="lg:block relative bg-light-elevatedSurface dark:bg-dark-elevatedSurface transition-colors duration-300 ease-linear"
     >
       <Nuxt />
     </main>
     <TheFooter />
     <TheMobileBottomNav />
     <TheCookieBox
-      class="
-        w-full
-        fixed
-        bottom-0
-        left-0
-        mt-8
-        z-40
-        translucent
-        bg-light-elevatedSurfaceHalf
-        dark:bg-dark-elevatedSurfaceHalf
-      "
+      class="w-full fixed bottom-0 left-0 mt-8 z-40 translucent bg-light-elevatedSurfaceHalf dark:bg-dark-elevatedSurfaceHalf"
       @acknowledge-banner="showCookieBanner = false"
     />
   </div>
@@ -150,26 +132,26 @@ export default {
         window.removeEventListener('keyup', this.detectDevTool)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/hello-there.gif')
-        }, 3000)
+        }, 1500)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/gandalf.gif')
-        }, 540000)
+        }, 60000)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/ride.gif')
-        }, 1080000)
+        }, 120000)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/drink.gif')
           console.log('Yo - Remember to drink.')
-        }, 1620000)
+        }, 180000)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/hackerman.jpg')
-        }, 2160000)
+        }, 240000)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/haha.gif')
-        }, 2700000)
+        }, 300000)
         setTimeout(() => {
           this.welcomeGif('https://emrinangelov.com/travolta.gif')
-        }, 3240000)
+        }, 360000)
       }
     }
   }
