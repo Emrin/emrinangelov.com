@@ -1,11 +1,6 @@
 <template>
   <div
-    class="
-      bg-light-elevatedSurface
-      dark:bg-dark-elevatedSurface
-      shadow-nuxt
-      relative
-    "
+    class="bg-light-elevatedSurface dark:bg-dark-elevatedSurface shadow-nuxt relative"
   >
     <div class="container mx-auto px-4 py-24">
       <section>
@@ -22,23 +17,10 @@
 
         <div v-for="(group, i) in expertise" :key="i" class="pb-8 text-center">
           <h2
-            class="
-              pb-8
-              font-medium
-              transition-colors
-              duration-300
-              ease-linear
-              text text-light-onSurfacePrimary
-              dark:text-dark-onSurfacePrimary
-            "
+            class="pb-8 font-medium transition-colors duration-300 ease-linear text text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary"
           >
             <span
-              class="
-                pb-2
-                leading-10
-                sm:leading-3
-                border-b-2 border-nuxt-lightgreen
-              "
+              class="pb-2 leading-10 sm:leading-3 border-b-2 border-nuxt-lightgreen"
             >
               {{ $t(`homepage.companies.${group.name}`) }}
             </span>
@@ -109,9 +91,57 @@ export default {
               class: 'h-12'
             },
             {
-              name: 'Firebase',
-              img: 'firebase.png',
-              url: 'https://firebase.google.com/',
+              name: 'React',
+              img: 'react.png',
+              url: 'https://reactjs.org/',
+              class: 'h-12'
+            },
+            {
+              name: 'NuxtJS',
+              img: 'nuxtjs.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'NextJS',
+              img: 'nextjs.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'JavaScript',
+              img: 'js.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'TypeScript',
+              img: 'typescript.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'Python',
+              img: 'python.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'HTML',
+              img: 'html5.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'CSS',
+              img: 'css3.png',
+              url: '',
+              class: 'h-12'
+            },
+            {
+              name: 'WordPress',
+              img: 'wordpress.png',
+              url: '',
               class: 'h-12'
             },
             {
@@ -127,10 +157,10 @@ export default {
               class: 'h-12'
             },
             {
-              name: 'JavaScript',
-              img: 'js.png',
-              url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-              class: 'h-12'
+              name: 'NodeJS',
+              img: 'node.png',
+              url: 'https://nodejs.org/en/',
+              class: 'h-10'
             }
           ]
         },
@@ -144,9 +174,15 @@ export default {
               class: 'h-16'
             },
             {
+              name: 'Amazon Web Services',
+              img: 'aws.png',
+              url: 'https://aws.amazon.com/',
+              class: 'h-12'
+            },
+            {
               name: 'GitHub',
               img: 'GitHub_Logo.png',
-              url: 'https://github.com/',
+              url: 'https://github.com/Emrin/',
               class: 'h-12'
             },
             {
@@ -161,18 +197,18 @@ export default {
               url: 'https://www.docker.com/',
               class: 'h-10'
             },
+            {
+              name: 'Firebase',
+              img: 'firebase.png',
+              url: 'https://firebase.google.com/',
+              class: 'h-10'
+            }
             // {
             //   name: 'GitLab',
             //   img: 'gitlab.svg',
             //   url: 'https://about.gitlab.com/',
             //   class: 'h-16'
             // },
-            {
-              name: 'Amazon Web Services',
-              img: 'aws.png',
-              url: 'https://aws.amazon.com/',
-              class: 'h-12'
-            }
           ]
         },
         {
