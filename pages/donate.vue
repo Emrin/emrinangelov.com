@@ -6,27 +6,10 @@
           <i18n
             path="sponsor.title"
             tag="h1"
-            class="
-              mb-6
-              text-3xl
-              font-medium
-              leading-normal
-              xl:text-4xl
-              text-light-onSurfacePrimary
-              dark:text-dark-onSurfacePrimary
-              lg:pt-4
-            "
+            class="mb-6 text-3xl font-medium leading-normal xl:text-4xl text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary lg:pt-4"
           />
           <p
-            class="
-              mb-6
-              font-medium
-              break-all
-              leading-relaxed
-              xl:text-lg
-              text-light-onSurfaceSecondary
-              dark:text-dark-onSurfaceSecondary
-            "
+            class="mb-6 font-medium break-all leading-relaxed xl:text-lg text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
           >
             <span class="text-nuxt-lightgreen">PayPal:</span>
             <a href="https://www.paypal.me/cyberlypse" target="_blank"
@@ -45,15 +28,12 @@
           </p>
         </div>
         <SponsorIllustration
-          class="
-            w-2/3
-            mx-auto
-            lg:mx-0 lg:w-5/12 lg:-mt-8
-            text-light-elevatedSurface
-            dark:text-dark-elevatedSurface
-          "
+          class="w-2/3 mx-auto lg:mx-0 lg:w-5/12 lg:-mt-8 text-light-elevatedSurface dark:text-dark-elevatedSurface"
         />
       </div>
+      <audio controls autoplay class="mx-auto">
+        <source src="/memes/L'estasi%20dell'oro.mp3" type="audio/mp3" />
+      </audio>
     </div>
   </div>
 </template>
