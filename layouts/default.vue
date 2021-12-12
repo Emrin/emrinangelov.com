@@ -131,26 +131,26 @@ export default {
       if (key.code === 'F12') {
         window.removeEventListener('keyup', this.detectDevTool)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/hello-there.gif')
+          this.welcomeGif('https://emrinangelov.com/memes/hello-there.gif')
         }, 1500)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/gandalf.gif')
+          this.welcomeGif('https://emrinangelov.com/memes/gandalf.gif')
         }, 60000)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/ride.gif')
+          this.welcomeGif('https://emrinangelov.com/memes/ride.gif')
         }, 120000)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/drink.gif')
+          this.welcomeGif('https://emrinangelov.com/memes/drink.gif')
           console.log('Yo - Remember to drink.')
         }, 180000)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/hackerman.jpg')
+          this.welcomeGif('https://emrinangelov.com/memes/hackerman.jpg')
         }, 240000)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/haha.gif')
+          this.welcomeGif('https://emrinangelov.com/memes/haha.gif')
         }, 300000)
         setTimeout(() => {
-          this.welcomeGif('https://emrinangelov.com/travolta.gif')
+          this.welcomeGif('https://emrinangelov.com/memes/travolta.gif')
         }, 360000)
       }
     }

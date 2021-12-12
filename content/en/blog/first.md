@@ -50,14 +50,14 @@ Store images in static/blog and in a folder with the filename.
   <code-block label="Yarn" active>
 
 ```bash
-yarn add gf
+yarn add w00t
 ```
 
 </code-block>
 <code-block label="npm">
 
 ```bash
-npm install gf
+npm install w00t
 ```
 
   </code-block>
@@ -67,7 +67,7 @@ npm install gf
 
 ```js{}[smex.js]
 export default {
-  consent: 'false'
+  wasd: 'true'
 }
 ```
 
