@@ -39,14 +39,14 @@ Images are stored in the static folder under blog and in a folder with the filen
   <code-block label="Yarn" active>
 
 ```bash
-yarn add gf
+yarn add life
 ```
 
 </code-block>
 <code-block label="npm">
 
 ```bash
-npm install gf
+npm install civilization
 ```
 
   </code-block>

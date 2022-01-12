@@ -67,7 +67,7 @@ module.exports = {
     why: {
       title: 'Pourquoi Travailler {together}',
       together: 'Ensemble',
-      try_nuxtjs_online: 'Entrer en contact',
+      get_in_touch: 'Entrer en contact',
       competence: {
         title: 'Compétence',
         description:
@@ -168,86 +168,6 @@ module.exports = {
     en: 'Anglais',
     fr: 'Français'
   },
-  design: {
-    meta: {
-      title: 'Conception NuxtJS',
-      description:
-        'Télécharger les ressources de conception NuxtJS (SVG, icônes, emoji et favicon).'
-    },
-    title: '{nuxt} Conception',
-    description:
-      "NuxtJS est un projet open source sous licence MIT et totalement gratuit d'utilisation. {break} Vous pouvez utiliser librement nos logos tant que vous mentionnez NuxtJS ainsi qu'un lien vers nuxtjs.org.",
-    other_download_message:
-      'Vous pouvez également télécharger notre {favicon} ou notre fichier {sketch}.'
-  },
-  resources: {
-    meta: {
-      title: 'Ressources NuxtJS',
-      description:
-        "Découvrez un panel de ressources réalisées par nos partenaires. En utilisant ces liens de ressources d'affiliation, vous nous aidez à maintenir et développer le Framework Open Source."
-    },
-    title: '{nuxt} Ressources',
-    description:
-      "Découvrez un panel de ressources réalisées par nos partenaires. En utilisant ces liens de ressources d'affiliation, vous nous aidez à maintenir et développer le Framework Open Source.",
-    themes: {
-      title: 'Thèmes'
-    },
-    videos: {
-      title: 'Cours Vidéos'
-    },
-    modules: {
-      title: 'Modules'
-    },
-    examples: {
-      title: 'Exemples'
-    }
-  },
-  shop: {
-    meta: {
-      title: 'Le magasin NuxtJS',
-      description:
-        'Vous souhaitez soutenir le projet NuxtJS et montrer votre amour au reste de la communauté? Voici nos produits avec la meilleure qualité jamais vue!'
-    },
-    title: 'Le magasin {nuxt}',
-    description:
-      'Vous souhaitez soutenir le projet NuxtJS et montrer votre amour au reste de la communauté?{break} Voici nos produits avec la meilleure qualité jamais vue!',
-    button: 'Bientôt disponible'
-  },
-  team: {
-    meta: {
-      title: "L'équipe NuxtJS",
-      description:
-        "NuxtJS a une équipe très active et engagée qui s'efforce constamment de faire avancer Nuxt."
-    },
-    title: "L'équipe {nuxt}",
-    description:
-      "Le développement de NuxtJS et de son écosystème est guidé par une équipe internationale. Nous avons une équipe très active et engagée qui s'efforce constamment de faire avancer Nuxt."
-  },
-  themes: {
-    meta: {
-      title: 'Les thèmes NuxtJS',
-      description:
-        'Avec les thèmes ci-dessous construits par nos partenaires de Creative Tim et Theme Forest, vous pouvez voir comment une application du monde réel est construite, avec la pile Nuxt.js en arrière plan.'
-    },
-    title: 'Les thèmes {nuxt}',
-    description:
-      'Avec les thèmes ci-dessous construits par nos partenaires de Creative Tim et Theme Forest, vous pouvez voir comment une application du monde réel est construite, avec la pile Nuxt.js en arrière plan.',
-    button: 'OBTENEZ-LE pour'
-  },
-  'video-courses': {
-    meta: {
-      title: 'Les cours vidéos NuxtJS',
-      description:
-        'Avec les cours vidéo ci-dessous créés par notre partenaire VueSchool, vous pouvez découvrir et en savoir plus sur le Framework Nuxt.js.'
-    },
-    title: 'Les cours vidéos {nuxt}',
-    description:
-      'Avec les cours vidéo ci-dessous créés par notre partenaire VueSchool, vous pouvez découvrir et en savoir plus sur le Framework Nuxt.js.',
-    cta: {
-      discover: 'Découvrir vueschool',
-      start: 'COMMENCER LE COURS'
-    }
-  },
   sponsor: {
     meta: {
       title: 'Parrainer',
@@ -259,43 +179,7 @@ module.exports = {
       title: 'Dons uniques',
       description: 'Nous acceptons les dons via ces canaux'
     },
-    pledges: {
-      title: 'Engagements récurrents',
-      description:
-        "Les promesses récurrentes s'accompagnent d'avantages exclusifs, par exemple avoir votre nom répertorié dans le référentiel NuxtJS GitHub, ou placer le logo de votre entreprise sur ce site Web. Devenez un nuxter ou un sponsor via {opencollective} (entre dans un fonds avec des modèles de dépenses transparents soutenant les efforts et les événements de la communauté)."
-    },
     become_a_sponsor: 'Devenez un sponsor'
-  },
-  support: {
-    meta: {
-      title: 'Le support NuxtJS',
-      description:
-        'Notre équipe NuxtJS propose désormais des services de conseil officiels pour vos applications NuxtJS.'
-    },
-    title: 'Conseil du support {nuxt}',
-    description:
-      "Notre équipe {nuxt} propose désormais des services de conseil officiels pour vos applications NuxtJS.{break} Nous proposons différents services en fonction de vos besoins, du support technique au développement sur mesure. Attendez-vous à une réponse dans un délai d'un jour ouvrable, nous pouvons signer une NDA personnalisée et vous pouvez obtenir un remboursement complet si vous n'êtes pas satisfait de notre service.",
-    technical: {
-      title: 'Le support technique',
-      description:
-        "Obtenez des audits de projet, des déploiements d'applications, un développement personnalisé et un support technique de la part de l'équipe NuxtJS.",
-      start: 'Démarrer le chat',
-      partner: {
-        pre: 'Nous nous sommes associés',
-        post: 'pour offrir ces services afin que nous puissions nous concentrer pour vous aider le plus rapidement possible.'
-      }
-    },
-    entreprise: {
-      title: 'pour entreprise',
-      description:
-        "NuxtJS et les mainteneurs de milliers d'autres packages travaillent avec Tidelift pour proposer un abonnement d'entreprise qui couvre l'ensemble de l'open source que vous utilisez.{break} Si vous voulez la flexibilité de l'open source et la confiance des logiciels de qualité commerciale, c'est pour vous.",
-      partner: {
-        pre: 'Disponible dans le cadre de',
-        post: "l'abonnement."
-      },
-      learn_more: 'En savoir plus',
-      request_a_demo: 'Demander une démonstration'
-    }
   },
   blog: {
     meta: {
@@ -305,83 +189,7 @@ module.exports = {
     },
     title: 'Blog',
     description:
-      'Découvrez des articles, des nouvelles et des poèmes écrits par Emrin Angelov.',
-    nuxt_team: 'Team',
-    nuxt_community: 'Community',
-    contribute:
-      'Vous avez commis une erreur ou souhaitez contribuer à cet article de blog ?'
-  },
-  guide: {
-    release_notes: 'Notes de versions (en)',
-    toc_title: 'Sur cette page'
-  },
-  quiz: {
-    title: 'Quiz'
-  },
-  tryNewDocs: {
-    msg1: "Jetez un coup d'œil à notre ",
-    link: 'nouvelle documentation (beta)',
-    msg2: '. Have fun !'
-  },
-  contribute: {
-    title: 'Contributeurs',
-    docs: 'Vous avez vu une erreur ou vous souhaitez contribuer à la documentation ?',
-    blog: 'Vous avez commis une erreur ou souhaitez contribuer à cet article de blog ?',
-    edit_on_github: 'Éditez cette page sur GitHub !',
-    msg1: 'La contribution pour cette page est maintenant fermée. Si vous souhaitez contribuer, veuillez consulter notre',
-    link: 'nouvelle documentation'
-  },
-  example: {
-    intro: 'Dans cet exemple:'
-  },
-  codeSandbox: {
-    open: 'Ouvrir CodeSandbox'
-  },
-  content: {
-    guide: {
-      prologue: 'Prologue',
-      'getting-started': 'Pour Commencer'
-    },
-    api: {
-      essential: 'Essentiel',
-      pages: 'Pages',
-      components: 'Composants',
-      utils: 'Utilitaires',
-      configuration: 'Configuration',
-      programmatically: 'Programmation',
-      internals: 'Mécanismes'
-    },
-    examples: {
-      routing: 'Routage',
-      dataFetching: 'Data Fetching',
-      assetManagement: "Gestion d'assets",
-      transitions: 'Transitions',
-      seo: 'SEO',
-      loading: 'Chargement',
-      miscellaneous: 'Divers',
-      middleware: 'Middleware',
-      plugins: 'Plugins',
-      modules: 'Modules',
-      essentials: 'Essentiels',
-      customization: 'Personnalisation',
-      advanced: 'Avancé'
-    },
-    faq: {
-      configuration: 'Configuration',
-      development: 'Développement',
-      deployment: 'Déploiement'
-    },
-    guides: {
-      'get-started': 'Commencer',
-      concepts: 'Concepts',
-      features: 'Fonctionnalités',
-      'directory-structure': 'Structure',
-      'configuration-glossary': 'Configuration',
-      'internals-glossary': 'Internes',
-      'components-glossary': 'Composants',
-      deployment: 'Déploiement',
-      examples: 'Exemples'
-    }
+      'Découvrez des articles, des nouvelles et des poèmes écrits par Emrin Angelov.'
   },
   footer: {
     links: {
@@ -389,7 +197,7 @@ module.exports = {
         title: 'Découvrir',
         shop: 'Nos goodies',
         consulting: 'Formation & consulting',
-        sponsorNuxt: 'Sponsoring & dons'
+        sponsor: 'Sponsoring & dons'
       },
       about: {
         title: 'À propos',

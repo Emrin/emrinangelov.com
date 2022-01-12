@@ -25,11 +25,7 @@
             <i18n
               path="homepage.why.competence.description"
               tag="p"
-              class="
-                leading-loose
-                text-light-onSurfaceSecondary
-                dark:text-dark-onSurfaceSecondary
-              "
+              class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
               <template #break>
                 <br />
@@ -46,11 +42,7 @@
             <i18n
               path="homepage.why.support.description"
               tag="p"
-              class="
-                leading-loose
-                text-light-onSurfaceSecondary
-                dark:text-dark-onSurfaceSecondary
-              "
+              class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
               <template #break>
                 <br />
@@ -67,11 +59,7 @@
             <i18n
               path="homepage.why.privacy.description"
               tag="p"
-              class="
-                leading-loose
-                text-light-onSurfaceSecondary
-                dark:text-dark-onSurfaceSecondary
-              "
+              class="leading-loose text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
             >
               <template #break>
                 💚
@@ -119,7 +107,7 @@
                 />
               </g>
             </svg>
-            {{ $t('homepage.why.try_nuxtjs_online') }}
+            {{ $t('homepage.why.get_in_touch') }}
           </AppButton>
         </div>
       </section>

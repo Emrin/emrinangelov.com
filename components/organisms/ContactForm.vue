@@ -8,16 +8,7 @@
         <i18n
           path="contact.message"
           tag="h2"
-          class="
-            mb-2
-            text-3xl
-            font-medium
-            transition-colors
-            duration-300
-            ease-linear
-            text-light-onSurfacePrimary
-            dark:text-dark-onSurfacePrimary
-          "
+          class="mb-2 text-3xl font-medium transition-colors duration-300 ease-linear text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary"
         >
           <template #message>
             <span class="text-nuxt-lightgreen">{{ $t('contact.a2') }}</span>
@@ -29,14 +20,7 @@
         <i18n
           path="contact.anon"
           tag="p"
-          class="
-            mb-6
-            transition-colors
-            duration-300
-            ease-linear
-            text-light-onSurfaceSecondary
-            dark:text-dark-onSurfaceSecondary
-          "
+          class="mb-6 transition-colors duration-300 ease-linear text-light-onSurfaceSecondary dark:text-dark-onSurfaceSecondary"
         >
           <template #break>
             <br />
@@ -67,20 +51,7 @@
               type="email"
               :placeholder="$t('contact.form.email')"
               aria-label="Contact email"
-              class="
-                w-full
-                md:w-2/3
-                lg:w-1/2
-                px-4
-                py-3
-                font-medium
-                border
-                rounded
-                outline-none
-                bg-light-elevatedSurface
-                text-light-onSurfacePrimary
-                focus:border-primary-base
-              "
+              class="w-full md:w-2/3 lg:w-1/2 px-4 py-3 font-medium border rounded outline-none bg-light-elevatedSurface text-light-onSurfacePrimary focus:border-primary-base"
             />
           </div>
           <div class="p-3 hidden">
@@ -93,20 +64,7 @@
               type="text"
               :placeholder="$t('contact.form.subject')"
               aria-label="Contact email"
-              class="
-                w-full
-                md:w-2/3
-                lg:w-1/2
-                px-4
-                py-3
-                font-medium
-                border
-                rounded
-                outline-none
-                bg-light-elevatedSurface
-                text-light-onSurfacePrimary
-                focus:border-primary-base
-              "
+              class="w-full md:w-2/3 lg:w-1/2 px-4 py-3 font-medium border rounded outline-none bg-light-elevatedSurface text-light-onSurfacePrimary focus:border-primary-base"
             />
           </div>
           <div class="p-3">
@@ -120,21 +78,7 @@
               required
               :placeholder="$t('contact.form.message')"
               aria-label="Contact message"
-              class="
-                w-full
-                md:w-2/3
-                lg:w-1/2
-                h-48
-                px-4
-                py-3
-                font-medium
-                border
-                rounded
-                outline-none
-                bg-light-elevatedSurface
-                text-light-onSurfacePrimary
-                focus:border-primary-base
-              "
+              class="w-full md:w-2/3 lg:w-1/2 h-48 px-4 py-3 font-medium border rounded outline-none bg-light-elevatedSurface text-light-onSurfacePrimary focus:border-primary-base"
             />
           </div>
           <input
@@ -143,35 +87,14 @@
             :value="
               pending ? $t('contact.form.sending') : $t('contact.form.send')
             "
-            class="
-              inline-block
-              px-4
-              py-2
-              text-sm text-base
-              font-medium
-              text-white
-              uppercase
-              rounded
-              shadow
-              cursor-pointer
-              bg-primary-base
-              hover:bg-primary-light hover:shadow-md
-            "
+            class="inline-block px-4 py-2 text-sm text-base font-medium text-white uppercase rounded shadow cursor-pointer bg-primary-base hover:bg-primary-light hover:shadow-md"
             :class="[pending ? 'bg-nuxt-green' : '']"
           />
         </form>
 
-        <!--      <p v-if="sent" class="py-1 text-nuxt-green">-->
         <p
           v-if="sent"
-          class="
-            text-3xl
-            font-medium
-            transition-colors
-            duration-300
-            ease-linear
-            text-nuxt-lightgreen
-          "
+          class="text-3xl font-medium transition-colors duration-300 ease-linear text-nuxt-lightgreen"
         >
           {{ $t('contact.form.sent') }}
         </p>

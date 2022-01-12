@@ -3,7 +3,7 @@
     v-if="langFallback"
     class="p-4 mb-6 rounded bg-orange-200 dark:text-light-onSurfacePrimary"
   >
-    ⚠️ You are looking at the english version of the page. Help us translate it
+    ⚠️ You are looking at the english version of the page. Help translate it
     <a :href="docLink" class="text-orange-600" target="_blank">here</a>.
   </div>
 </template>
