@@ -88,18 +88,30 @@ export default {
           {
             key: 'Aclipt',
             href: 'https://aclipt.com/autre/paris/aclipt'
+          },
+          {
+            key: 'YouTube',
+            href: 'https://www.youtube.com/channel/UCLluAat6PqWJXAk0KnnjPLg'
           }
         ],
         about: [
           {
             key: 'Contact',
             to: this.localePath('/contact')
+          },
+          {
+            key: 'Twitter',
+            href: 'https://twitter.com/cyberlypse'
           }
         ],
         support: [
           {
             key: this.$t('footer.links.discover.sponsor'),
             to: this.localePath('/donate')
+          },
+          {
+            key: 'GitHub',
+            href: 'https://github.com/Emrin'
           }
         ]
       }
