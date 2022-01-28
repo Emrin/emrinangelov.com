@@ -96,6 +96,6 @@
     "@nuxtjs/recaptcha": "^1.0.4",
     "lite-youtube-embed": "^0.2.0",
     "lottie-web": "^5.7.14",
-    "three": "^0.135.0"
+    "three": "^0.137.5"
   }
 }
