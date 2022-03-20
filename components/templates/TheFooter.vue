@@ -89,20 +89,20 @@ export default {
             key: 'Aclipt',
             href: 'https://aclipt.com/autre/paris/aclipt'
           },
-          {
-            key: 'YouTube',
-            href: 'https://www.youtube.com/channel/UCLluAat6PqWJXAk0KnnjPLg'
-          }
+          //{
+          //  key: 'YouTube',
+          //  href: 'https://www.youtube.com/channel/UCLluAat6PqWJXAk0KnnjPLg'
+          //}
         ],
         about: [
           {
             key: 'Contact',
             to: this.localePath('/contact')
           },
-          {
-            key: 'Twitter',
-            href: 'https://twitter.com/cyberlypse'
-          }
+          //{
+          //  key: 'Twitter',
+          //  href: 'https://twitter.com/cyberlypse'
+          //}
         ],
         support: [
           {
