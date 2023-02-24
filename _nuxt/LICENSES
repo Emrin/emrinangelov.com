@@ -6,13 +6,6 @@
  */
 
 
-/**
- * @license
- * Copyright 2010-2022 Three.js Authors
- * SPDX-License-Identifier: MIT
- */
-
-
 /*!
   * vue-scrollto v2.20.0
   * (c) 2019 Randjelovic Igor
@@ -47,6 +40,13 @@ PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
 
 /*! MIT License © Sindre Sorhus */
+
+
+/**
+ * @license
+ * Copyright 2010-2022 Three.js Authors
+ * SPDX-License-Identifier: MIT
+ */
 
 
 /*!
