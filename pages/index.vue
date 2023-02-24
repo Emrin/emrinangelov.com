@@ -1,10 +1,10 @@
 <template>
   <div>
     <HomeWelcome />
-    <HomeWhy />
-    <HomeExpertise />
-    <HomeModes />
-    <HomeSponsors />
+<!--    <HomeWhy />-->
+<!--    <HomeExpertise />-->
+<!--    <HomeModes />-->
+<!--    <HomeSponsors />-->
   </div>
 </template>
 
