@@ -86,6 +86,10 @@ export default {
       links: {
         discover: [
           {
+            key: 'Vendunt',
+            href: 'https://vendunt.com/'
+          },
+          {
             key: 'Aclipt',
             href: 'https://aclipt.com/autre/paris/aclipt'
           },
@@ -99,10 +103,10 @@ export default {
             key: 'Contact',
             to: this.localePath('/contact')
           },
-          //{
-          //  key: 'Twitter',
-          //  href: 'https://twitter.com/cyberlypse'
-          //}
+          {
+           key: 'Twitter',
+           href: 'https://twitter.com/emrinangelov'
+          }
         ],
         support: [
           {
