@@ -27,17 +27,6 @@ tags:
 
 I use this blog as a baseline for my future blogs.
 
-Once upon a time, there was a wise man. He was eager to learn.\
-Throughout his entire life, he always searched for meaning.\
-He wondered if he had any free will, or if the timeline of his life was
-already well-defined, from one end to another.\
-To study a physical phenomenon, we often need to know two things, he though: \
-the equation which describes how a physical phenomenon behaves, and its initial conditions. \
-So, he reasoned, we do have free will because we aren't able to calculate our future.\
-Just like in chess.\
-And that's why life is such a good game, you never know what you'll get and where you'll end up.\
-Unless if you're playing against a fast computer, then it's less fun.
-
 ## Example image
 
 Store images in static/blog and in a folder with the filename.
