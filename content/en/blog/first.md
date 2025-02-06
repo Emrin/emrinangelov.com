@@ -1,12 +1,12 @@
 ---
 title: Baseline
-description: This is an example so that the page doesn't give a 'no blogs found UwU' error.
+description: This is a placeholder example.
 imgUrl: blog/first/gandalf.gif
 date: 2021-08-21
 authors:
   - name: Emrin Angelov
     avatarUrl: https://pbs.twimg.com/profile_images/1175377476412936193/CY_5QKNg_400x400.jpg
-    link: https://twitter.com/cyberlypse
+    link: https://www.linkedin.com/in/emrin-angelov
 tags:
   - Baseline
   - Robots
@@ -25,11 +25,9 @@ tags:
 
 ## Example text
 
-I use this blog as a baseline for my future blogs.
+Just an example
 
 ## Example image
-
-Store images in static/blog and in a folder with the filename.
 
 ![My image alt tag](/blog/first/gandalf.gif)
 
@@ -39,14 +37,14 @@ Store images in static/blog and in a folder with the filename.
   <code-block label="Yarn" active>
 
 ```bash
-yarn add w00t
+yarn add thing
 ```
 
 </code-block>
 <code-block label="npm">
 
 ```bash
-npm install w00t
+npm install thing
 ```
 
   </code-block>
@@ -54,7 +52,7 @@ npm install w00t
 
 ## Example code
 
-```js{}[smex.js]
+```js{}[doge.js]
 export default {
   wasd: 'true'
 }
