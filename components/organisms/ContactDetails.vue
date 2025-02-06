@@ -38,14 +38,6 @@
         >
           <ul>
             <li>
-              Protonmail:
-              <a href="mailto:emrinangelov@pm.me">emrinangelov@pm.me</a>
-            </li>
-            <li>
-              Gmail:
-              <a href="mailto:emrinangelov@gmail.com">emrinangelov@gmail.com</a>
-            </li>
-            <li>
               LinkedIn:
               <a
                 href="https://www.linkedin.com/in/emrin-angelov/"
