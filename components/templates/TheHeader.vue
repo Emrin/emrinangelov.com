@@ -25,7 +25,7 @@
         class="inline-block text-nuxt-gray h-7 lg:h-10 z-10 mr-auto"
         :to="localePath('index')"
       >
-        <h1 class="m-0 h-0 w-0 overflow-hidden">Emrin Angelov</h1>
+        <h1 class="m-0 h-0 w-0 overflow-hidden">Emrin Efrayim Angelov</h1>
         <SiteLogo
           class="
             h-6
