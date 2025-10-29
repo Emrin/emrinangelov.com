@@ -103,10 +103,10 @@ export default {
             key: 'Contact',
             to: this.localePath('/contact')
           },
-          {
-           key: 'Twitter',
-           href: 'https://twitter.com/emrinangelov'
-          }
+          //{
+          // key: 'Twitter',
+          // href: 'https://twitter.com/emrinangelov'
+          //}
         ],
         support: [
           {
