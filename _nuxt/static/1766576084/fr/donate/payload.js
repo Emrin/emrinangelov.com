@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fr/donate", {data:[{}],fetch:{},mutations:[]});

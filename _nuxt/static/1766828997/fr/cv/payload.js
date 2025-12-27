@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/cv", {data:[{tab:"fr"}],fetch:{},mutations:[]});
